@@ -2229,7 +2229,7 @@ local function setElementVisible(name, visible)
 	end)
 end
 
-local Window = WindUI:CreateWindow({ Title = "Wanta", Icon = "ss-king", Author = "by Wanta", Transparent = true })
+local Window = WindUI:CreateWindow({ Title = "Wanta", Icon = "chess-king", Author = "by Wanta", Transparent = true })
 Window.Name = GUI_NAMES.Main 
 Window:Tag({ Title = "V 1", Icon = "github", Color = Color3.fromHex("#00557f"), Radius = 0 })
 Window:SetToggleKey(Enum.KeyCode.H)
