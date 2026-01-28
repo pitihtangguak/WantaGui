@@ -106,7 +106,7 @@ local LocalPlayer = Players.LocalPlayer
 local PlayerGui = LocalPlayer:WaitForChild("PlayerGui")
 local RunService = game:GetService("RunService")
 
-local WindUI = local CascadeUI = loadstring(game:HttpGet('https://raw.githubusercontent.com/SquidGurr/CascadeUI/main/CascadeUI.lua'))()
+local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
 
 -- ---------------------------------------------------------------------
 -- -- AUTO DISCO v13 — FINAL PRODUCTION VERSION
