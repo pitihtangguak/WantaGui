@@ -106,7 +106,7 @@ local LocalPlayer = Players.LocalPlayer
 local PlayerGui = LocalPlayer:WaitForChild("PlayerGui")
 local RunService = game:GetService("RunService")
 
-local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
+local WindUI = loadstring(game:HttpGet('https://raw.githubusercontent.com/SquidGurr/CascadeUI/main/CascadeUI.lua'))()
 
 -- ---------------------------------------------------------------------
 -- -- AUTO DISCO v13 — FINAL PRODUCTION VERSION
@@ -2230,30 +2230,6 @@ local function setElementVisible(name, visible)
 end
 
 local Window = WindUI:CreateWindow({ Title = "Wanta", Icon = "ss-king", Author = "by Wanta", Transparent = true })
--- ⬇️ TAMBAHIN INI ⬇️
-task.spawn(function()
-	task.wait(0.5) -- Tunggu GUI selesai render
-
-	local CoreGui = game:GetService("CoreGui")
-
-	-- Cari Main Frame GUI
-	for _, gui in pairs(CoreGui:GetDescendants()) do
-		if gui:IsA("Frame") and gui.Name == "Main" then
-			-- Ubah background color
-			gui.BackgroundColor3 = Color3.fromRGB(0, 85, 127) -- Biru Tosca
-			gui.BackgroundTransparency = 0.2 -- Semi-transparan (0 = solid, 1 = invisible)
-
-			-- Tambah blur effect (opsional)
-			local blur = Instance.new("UICorner")
-			blur.CornerRadius = UDim.new(0, 12)
-			blur.Parent = gui
-
-			warn("✅ Background berhasil diubah!")
-			break
-		end
-	end
-end)
-
 Window.Name = GUI_NAMES.Main 
 Window:Tag({ Title = "V 1", Icon = "github", Color = Color3.fromHex("#00557f"), Radius = 0 })
 Window:SetToggleKey(Enum.KeyCode.H)
