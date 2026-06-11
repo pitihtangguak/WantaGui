@@ -1,56 +1,31 @@
 {
   "Groups": {
     "A": {
-"teams": {
-  "1": { "points": 3, "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 2, "ga": 0 },
-  "2": { "points": 0, "played": 1, "won": 0, "drawn": 0, "lost": 1, "gf": 0, "ga": 2 },
-  "3": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-  "4": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
-}
+      "teams": {
+        "1": { "points": 3, "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 2, "ga": 0 },
+        "2": { "points": 0, "played": 1, "won": 0, "drawn": 0, "lost": 1, "gf": 0, "ga": 2 },
+        "3": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+        "4": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
+      },
       "matches": {
-"1": {
-  "homeScore": 2,
-  "awayScore": 0,
-  "goals": [
-    { "team": "home", "player": "Julian Quinones", "minute": 9  },
-    { "team": "home", "player": "Raul Jimenez",    "minute": 67 }
-  ],
-  "cards": [
-    { "team": "home", "player": "Cesar Montes",  "minute": 90, "type": "red"    },
-    { "team": "away", "player": "Yaya Sithole",  "minute": 50, "type": "yellow" },
-    { "team": "away", "player": "Themba Zwane",  "minute": 84, "type": "yellow" }
-  ]
-}
-        "2": {
-          "homeScore": null,
-          "awayScore": null,
-          "goals": [],
-          "cards": []
+        "1": {
+          "homeScore": 2,
+          "awayScore": 0,
+          "goals": [
+            { "team": "home", "player": "Julian Quinones", "minute": 9  },
+            { "team": "home", "player": "Raul Jimenez",    "minute": 67 }
+          ],
+          "cards": [
+            { "team": "home", "player": "Cesar Montes",  "minute": 90, "type": "red"    },
+            { "team": "away", "player": "Yaya Sithole",  "minute": 50, "type": "yellow" },
+            { "team": "away", "player": "Themba Zwane",  "minute": 84, "type": "yellow" }
+          ]
         },
-        "3": {
-          "homeScore": null,
-          "awayScore": null,
-          "goals": [],
-          "cards": []
-        },
-        "4": {
-          "homeScore": null,
-          "awayScore": null,
-          "goals": [],
-          "cards": []
-        },
-        "5": {
-          "homeScore": null,
-          "awayScore": null,
-          "goals": [],
-          "cards": []
-        },
-        "6": {
-          "homeScore": null,
-          "awayScore": null,
-          "goals": [],
-          "cards": []
-        }
+        "2": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "3": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "4": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "5": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "6": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
       }
     },
     "B": {
