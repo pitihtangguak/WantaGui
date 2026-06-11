@@ -1,12 +1,12 @@
 {
   "Groups": {
     "A": {
-      "teams": {
-        "1": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-        "2": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-        "3": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-        "4": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
-      },
+"teams": {
+  "1": { "points": 3, "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 2, "ga": 0 },
+  "2": { "points": 0, "played": 1, "won": 0, "drawn": 0, "lost": 1, "gf": 0, "ga": 2 },
+  "3": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+  "4": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
+}
       "matches": {
 "1": {
   "homeScore": 2,
