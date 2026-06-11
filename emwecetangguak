@@ -6,80 +6,56 @@
 --  RULES:
 --  - Must be valid Lua that RETURNS a table
 --  - Only include fields you want to UPDATE
---    (missing fields keep local WorldCupData defaults)
 --  - All times GMT+7
---  - goals  = { {team="home"/"away", player="Name", minute=45} }
---  - cards  = { {team="home"/"away", player="Name", minute=30, type="yellow"/"red"} }
+--  - goals = { {team="home"/"away", player="Name", minute=45} }
+--  - cards = { {team="home"/"away", player="Name", minute=30, type="yellow"/"red"} }
 -- ================================================================
-
 return {
 	Groups = {
 		-- --------------------------------------------------------
-		--  GROUP A  (teams index: 1=Mexico 2=South Africa 3=Korea Republic 4=Czechia)
+		--  GROUP A  (1=Mexico  2=South Africa  3=Korea Republic  4=Czechia)
 		-- --------------------------------------------------------
 		A = {
 			teams = {
-				[1] = { points=6,  played=2, won=2, drawn=0, lost=0, gf=4, ga=1 },
-				[2] = { points=3,  played=2, won=1, drawn=0, lost=1, gf=2, ga=3 },
-				[3] = { points=1,  played=2, won=0, drawn=1, lost=1, gf=1, ga=2 },
-				[4] = { points=0,  played=2, won=0, drawn=1, lost=1, gf=1, ga=2 },
+				[1] = { points=3, played=1, won=1, drawn=0, lost=0, gf=2, ga=0 },
+				[2] = { points=0, played=1, won=0, drawn=0, lost=1, gf=0, ga=2 },
+				[3] = { points=0, played=0, won=0, drawn=0, lost=0, gf=0, ga=0 },
+				[4] = { points=0, played=0, won=0, drawn=0, lost=0, gf=0, ga=0 },
 			},
 			matches = {
-				 Match 1: Mexico vs South Africa
+				-- Match 1: Mexico vs South Africa  ✅ SELESAI
 				[1] = {
-					homeScore = 2, awayScore = 1,
+					homeScore = 2, awayScore = 0,
 					goals = {
-						{ team="home", player="Lozano",   minute=23 },
-						{ team="home", player="Jimenez",  minute=67 },
-						{ team="away", player="Tau",      minute=45 },
+						{ team="home", player="Julian Quinones", minute=9  },
+						{ team="home", player="Raul Jimenez",    minute=67 },
 					},
 					cards = {
-						{ team="away", player="Zungu",    minute=55, type="yellow" },
-						{ team="home", player="Guardado", minute=80, type="yellow" },
+						{ team="home", player="Cesar Montes", minute=92, type="red" },
+						{ team="away", player="Yaya Sithole",  minute=50, type="yellow" },
+						{ team="away", player="Themba Zwane",  minute=84, type="yellow" },
 					},
 				},
-				-- Match 2: Korea Republic vs Czechia
-				[2] = {
-					homeScore = 1, awayScore = 1,
-					goals = {
-						{ team="home", player="Son",    minute=38 },
-						{ team="away", player="Schick", minute=72 },
-					},
-					cards = {},
-				},
-				-- Matches not yet played: simply omit or set homeScore=nil
-				-- [3] = { homeScore=nil, awayScore=nil, goals={}, cards={} },
+				-- Match 2: Korea Republic vs Czechia  (belum main)
+				-- [2] = { homeScore=nil, awayScore=nil, goals={}, cards={} },
 			},
 		},
 
 		-- --------------------------------------------------------
-		--  GROUP B  (teams: 1=Canada 2=Bosnia & H. 3=Qatar 4=Switzerland)
+		--  GROUP B  — belum ada hasil
 		-- --------------------------------------------------------
-		B = {
-			teams = {},
-			matches = {},
-		},
+		B = { teams = {}, matches = {} },
 
 		-- --------------------------------------------------------
-		--  GROUP C  (teams: 1=Brazil 2=Morocco 3=Haiti 4=Scotland)
+		--  GROUP C  — belum ada hasil
 		-- --------------------------------------------------------
-		C = {
-			teams = {},
-			matches = {},
-		},
+		C = { teams = {}, matches = {} },
 
-		-- Add D through L following same pattern ...
+		-- Tambahkan D–L dengan pola yang sama saat sudah ada hasil
 	},
 
 	Knockout = {
-		Round32 = {
-			-- [1] = {
-			--   team1="Brazil", team2="Spain",
-			--   homeScore=2, awayScore=1, result="team1",
-			--   goals={ {team="home",player="Neymar",minute=33} },
-			--   cards={},
-			-- },
-		},
+		Round32      = {},
 		Round16      = {},
 		QuarterFinal = {},
 		SemiFinal    = {},
