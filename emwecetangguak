@@ -25,7 +25,7 @@ return {
 				[4] = { points=0,  played=2, won=0, drawn=1, lost=1, gf=1, ga=2 },
 			},
 			matches = {
-				-- Match 1: Mexico vs South Africa
+				 Match 1: Mexico vs South Africa
 				[1] = {
 					homeScore = 2, awayScore = 1,
 					goals = {
