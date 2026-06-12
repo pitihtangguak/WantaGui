@@ -5,7 +5,7 @@
 			"teams": {
 				"1": { "_name": "Mexico",         "points": 3, "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 2, "ga": 0 },
 				"2": { "_name": "South Africa",   "points": 0, "played": 1, "won": 0, "drawn": 0, "lost": 1, "gf": 0, "ga": 2 },
-				"3": { "_name": "Korea Republic", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+				"3": { "_name": "South Korea", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
 				"4": { "_name": "Czechia",        "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
 			},
 			"matches": {
@@ -22,10 +22,10 @@
 					{ "team": "away", "player": "Themba Zwane",  "minute": 84, "type": "yellow" }
 					]
 				},
-				"2": { "_home": "Korea Republic", "_away": "Czechia",        "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"2": { "_home": "South Korea", "_away": "Czechia",        "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"3": { "_home": "Czechia",        "_away": "South Africa",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"4": { "_home": "Mexico",         "_away": "Korea Republic", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"5": { "_home": "South Africa",   "_away": "Korea Republic", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"4": { "_home": "Mexico",         "_away": "South Korea", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"5": { "_home": "South Africa",   "_away": "South Korea", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"6": { "_home": "Czechia",        "_away": "Mexico",         "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
 			}
 		},
