@@ -39,8 +39,8 @@
 
 		"B": {
 			"teams": {
-				"1": { "_name": "Canada",      "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"2": { "_name": "Bosnia & H.", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+				"1": { "_name": "Canada",      "points": 1, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 1, "ga": 1 },
+				"2": { "_name": "Bosnia & H.", "points": 1, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 1, "ga": 1 },
 				"3": { "_name": "Qatar",       "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
 				"4": { "_name": "Switzerland", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
 			},
