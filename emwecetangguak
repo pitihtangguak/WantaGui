@@ -22,7 +22,19 @@
 					{ "team": "away", "player": "Themba Zwane",  "minute": 84, "type": "yellow" }
 					]
 				},
-				"2": { "_home": "Korea Republic", "_away": "Czechia",        "homeScore": 2, "awayScore": 2, "goals": [{ "team": "home", "player": "Julian Quinones", "minute": 9  },], "cards": [{ "team": "home", "player": "Cesar Montes", "minute": 90, "type": "red"    },] },
+				"2": { "_home": "Korea Republic", "_away": "Czechia",        "homeScore": 2, "awayScore": 2, 
+					"goals": [
+					{ "team": "home", "player": "Julian Quinones", "minute": 9  },
+					{ "team": "home", "player": "Raul Jimenez",    "minute": 67 },
+					{ "team": "away", "player": "Julian Quinones", "minute": 8  },
+					{ "team": "away", "player": "Raul Jimenez",    "minute": 10 },
+					], 
+					"cards": [
+					{ "team": "home", "player": "Cesar Montes", "minute": 90, "type": "red"    },
+					{ "team": "away", "player": "Yaya Sithole",  "minute": 50, "type": "yellow" },
+					{ "team": "away", "player": "Themba Zwane",  "minute": 84, "type": "yellow" }
+					] 
+				},
 				"3": { "_home": "Czechia",        "_away": "South Africa",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"4": { "_home": "Mexico",         "_away": "Korea Republic", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"5": { "_home": "South Africa",   "_away": "Korea Republic", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
