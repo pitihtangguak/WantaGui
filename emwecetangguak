@@ -1,266 +1,254 @@
 {
-	"Groups": {
-		"A": {
-			"teams": {
-				"1": { "points": 6, "played": 2, "won": 2, "drawn": 0, "lost": 0, "gf": 4, "ga": 1 },
-				"2": { "points": 3, "played": 2, "won": 1, "drawn": 0, "lost": 1, "gf": 2, "ga": 2 },
-				"3": { "points": 1, "played": 2, "won": 0, "drawn": 1, "lost": 1, "gf": 1, "ga": 3 },
-				"4": { "points": 0, "played": 2, "won": 0, "drawn": 0, "lost": 2, "gf": 0, "ga": 1 }
-			},
-			"matches": {
-				"1": {
-					"homeScore": 2,
-					"awayScore": 0,
-					"goals": [
-					{ "team": "home", "player": "Julian Quinones", "minute": 9  },
-					{ "team": "home", "player": "Raul Jimenez",    "minute": 67 }
-					],
-					"cards": [
-					{ "team": "home", "player": "Cesar Montes", "minute": 92, "type": "red"    },
-					{ "team": "away", "player": "Yaya Sithole",  "minute": 50, "type": "yellow" },
-					{ "team": "away", "player": "Themba Zwane",  "minute": 84, "type": "yellow" }
-					]
-				},
-				"2": {
-					"homeScore": 2,
-					"awayScore": 0,
-					"goals": [
-					{ "team": "home", "player": "Julian Quinones", "minute": 9  },
-					{ "team": "home", "player": "Raul Jimenez",    "minute": 67 }
-					],
-					"cards": [
-					{ "team": "home", "player": "Cesar Montes", "minute": 92, "type": "red"    },
-					{ "team": "away", "player": "Yaya Sithole",  "minute": 50, "type": "yellow" },
-					{ "team": "away", "player": "Themba Zwane",  "minute": 84, "type": "yellow" }
-					]
-				},
-				"3": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"4": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"5": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"6": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
-			}
-		},
-		"B": {
-			"teams": {
-				"1": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"2": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"3": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"4": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
-			},
-			"matches": {
-				"1": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"2": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"3": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"4": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"5": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"6": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
-			}
-		},
-		"C": {
-			"teams": {
-				"1": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"2": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"3": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"4": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
-			},
-			"matches": {
-				"1": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"2": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"3": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"4": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"5": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"6": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
-			}
-		},
-		"D": {
-			"teams": {
-				"1": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"2": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"3": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"4": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
-			},
-			"matches": {
-				"1": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"2": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"3": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"4": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"5": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"6": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
-			}
-		},
-		"E": {
-			"teams": {
-				"1": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"2": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"3": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"4": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
-			},
-			"matches": {
-				"1": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"2": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"3": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"4": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"5": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"6": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
-			}
-		},
-		"F": {
-			"teams": {
-				"1": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"2": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"3": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"4": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
-			},
-			"matches": {
-				"1": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"2": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"3": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"4": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"5": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"6": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
-			}
-		},
-		"G": {
-			"teams": {
-				"1": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"2": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"3": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"4": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
-			},
-			"matches": {
-				"1": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"2": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"3": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"4": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"5": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"6": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
-			}
-		},
-		"H": {
-			"teams": {
-				"1": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"2": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"3": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"4": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
-			},
-			"matches": {
-				"1": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"2": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"3": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"4": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"5": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"6": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
-			}
-		},
-		"I": {
-			"teams": {
-				"1": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"2": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"3": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"4": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
-			},
-			"matches": {
-				"1": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"2": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"3": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"4": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"5": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"6": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
-			}
-		},
-		"J": {
-			"teams": {
-				"1": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"2": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"3": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"4": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
-			},
-			"matches": {
-				"1": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"2": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"3": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"4": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"5": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"6": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
-			}
-		},
-		"K": {
-			"teams": {
-				"1": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"2": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"3": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"4": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
-			},
-			"matches": {
-				"1": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"2": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"3": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"4": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"5": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"6": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
-			}
-		},
-		"L": {
-			"teams": {
-				"1": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"2": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"3": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"4": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
-			},
-			"matches": {
-				"1": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"2": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"3": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"4": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"5": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"6": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
-			}
-		}
-	},
-	"Knockout": {
-		"Round32": {
-			"1":  { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-			"2":  { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-			"3":  { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-			"4":  { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-			"5":  { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-			"6":  { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-			"7":  { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-			"8":  { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-			"9":  { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-			"10": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-			"11": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-			"12": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-			"13": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-			"14": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-			"15": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-			"16": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] }
-		},
-		"Round16": {
-			"1": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-			"2": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-			"3": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-			"4": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-			"5": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-			"6": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-			"7": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-			"8": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] }
-		},
-		"QuarterFinal": {
-			"1": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-			"2": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-			"3": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-			"4": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] }
-		},
-		"SemiFinal": {
-			"1": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-			"2": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] }
-		},
-		"Final": {
-			"1": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] }
-		},
-		"ThirdPlace": {
-			"1": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] }
-		}
-	}
+  "Groups": {
+    "A": {
+      "teams": {
+        "1": { "points": 3, "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 2, "ga": 0 },
+        "2": { "points": 0, "played": 1, "won": 0, "drawn": 0, "lost": 1, "gf": 0, "ga": 2 },
+        "3": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+        "4": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
+      },
+      "matches": {
+        "1": {
+          "homeScore": 2,
+          "awayScore": 0,
+          "goals": [
+            { "team": "home", "player": "Julian Quinones", "minute": 9  },
+            { "team": "home", "player": "Raul Jimenez",    "minute": 67 }
+          ],
+          "cards": [
+            { "team": "home", "player": "Cesar Montes",  "minute": 90, "type": "red"    },
+            { "team": "away", "player": "Yaya Sithole",  "minute": 50, "type": "yellow" },
+            { "team": "away", "player": "Themba Zwane",  "minute": 84, "type": "yellow" }
+          ]
+        },
+        "2": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "3": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "4": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "5": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "6": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
+      }
+    },
+    "B": {
+      "teams": {
+        "1": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+        "2": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+        "3": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+        "4": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
+      },
+      "matches": {
+        "1": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "2": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "3": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "4": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "5": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "6": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
+      }
+    },
+    "C": {
+      "teams": {
+        "1": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+        "2": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+        "3": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+        "4": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
+      },
+      "matches": {
+        "1": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "2": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "3": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "4": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "5": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "6": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
+      }
+    },
+    "D": {
+      "teams": {
+        "1": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+        "2": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+        "3": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+        "4": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
+      },
+      "matches": {
+        "1": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "2": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "3": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "4": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "5": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "6": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
+      }
+    },
+    "E": {
+      "teams": {
+        "1": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+        "2": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+        "3": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+        "4": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
+      },
+      "matches": {
+        "1": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "2": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "3": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "4": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "5": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "6": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
+      }
+    },
+    "F": {
+      "teams": {
+        "1": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+        "2": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+        "3": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+        "4": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
+      },
+      "matches": {
+        "1": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "2": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "3": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "4": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "5": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "6": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
+      }
+    },
+    "G": {
+      "teams": {
+        "1": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+        "2": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+        "3": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+        "4": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
+      },
+      "matches": {
+        "1": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "2": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "3": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "4": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "5": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "6": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
+      }
+    },
+    "H": {
+      "teams": {
+        "1": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+        "2": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+        "3": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+        "4": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
+      },
+      "matches": {
+        "1": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "2": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "3": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "4": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "5": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "6": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
+      }
+    },
+    "I": {
+      "teams": {
+        "1": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+        "2": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+        "3": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+        "4": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
+      },
+      "matches": {
+        "1": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "2": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "3": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "4": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "5": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "6": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
+      }
+    },
+    "J": {
+      "teams": {
+        "1": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+        "2": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+        "3": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+        "4": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
+      },
+      "matches": {
+        "1": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "2": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "3": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "4": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "5": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "6": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
+      }
+    },
+    "K": {
+      "teams": {
+        "1": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+        "2": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+        "3": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+        "4": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
+      },
+      "matches": {
+        "1": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "2": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "3": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "4": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "5": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "6": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
+      }
+    },
+    "L": {
+      "teams": {
+        "1": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+        "2": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+        "3": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+        "4": { "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
+      },
+      "matches": {
+        "1": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "2": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "3": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "4": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "5": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+        "6": { "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
+      }
+    }
+  },
+  "Knockout": {
+    "Round32": {
+      "1":  { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+      "2":  { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+      "3":  { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+      "4":  { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+      "5":  { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+      "6":  { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+      "7":  { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+      "8":  { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+      "9":  { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+      "10": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+      "11": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+      "12": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+      "13": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+      "14": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+      "15": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+      "16": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] }
+    },
+    "Round16": {
+      "1": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+      "2": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+      "3": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+      "4": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+      "5": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+      "6": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+      "7": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+      "8": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] }
+    },
+    "QuarterFinal": {
+      "1": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+      "2": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+      "3": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+      "4": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] }
+    },
+    "SemiFinal": {
+      "1": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+      "2": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] }
+    },
+    "Final": {
+      "1": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] }
+    },
+    "ThirdPlace": {
+      "1": { "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] }
+    }
+  }
 }
