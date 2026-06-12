@@ -1,268 +1,268 @@
 {
-  "Groups": {
+	"Groups": {
 
-    "A": {
-      "teams": {
-        "1": { "_name": "Mexico",         "points": 3, "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 2, "ga": 0 },
-        "2": { "_name": "South Africa",   "points": 0, "played": 1, "won": 0, "drawn": 0, "lost": 1, "gf": 0, "ga": 2 },
-        "3": { "_name": "Korea Republic", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-        "4": { "_name": "Czechia",        "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
-      },
-      "matches": {
-        "1": {
-          "_home": "Mexico", "_away": "South Africa",
-          "homeScore": 2, "awayScore": 0,
-          "goals": [
-            { "team": "home", "player": "Julian Quinones", "minute": 9  },
-            { "team": "home", "player": "Raul Jimenez",    "minute": 67 }
-          ],
-          "cards": [
-            { "team": "home", "player": "Cesar Montes", "minute": 90, "type": "red"    },
-            { "team": "away", "player": "Yaya Sithole",  "minute": 50, "type": "yellow" },
-            { "team": "away", "player": "Themba Zwane",  "minute": 84, "type": "yellow" }
-          ]
-        },
-        "2": { "_home": "Korea Republic", "_away": "Czechia",        "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "3": { "_home": "Czechia",        "_away": "South Africa",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "4": { "_home": "Mexico",         "_away": "Korea Republic", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "5": { "_home": "South Africa",   "_away": "Korea Republic", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "6": { "_home": "Czechia",        "_away": "Mexico",         "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
-      }
-    },
+		"A": {
+			"teams": {
+				"1": { "_name": "Mexico",         "points": 3, "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 2, "ga": 0 },
+				"2": { "_name": "South Africa",   "points": 0, "played": 1, "won": 0, "drawn": 0, "lost": 1, "gf": 0, "ga": 2 },
+				"3": { "_name": "Korea Republic", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+				"4": { "_name": "Czechia",        "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
+			},
+			"matches": {
+				"1": {
+					"_home": "Mexico", "_away": "South Africa",
+					"homeScore": 2, "awayScore": 0,
+					"goals": [
+					{ "team": "home", "player": "Julian Quinones", "minute": 9  },
+					{ "team": "home", "player": "Raul Jimenez",    "minute": 67 }
+					],
+					"cards": [
+					{ "team": "home", "player": "Cesar Montes", "minute": 90, "type": "red"    },
+					{ "team": "away", "player": "Yaya Sithole",  "minute": 50, "type": "yellow" },
+					{ "team": "away", "player": "Themba Zwane",  "minute": 84, "type": "yellow" }
+					]
+				},
+				"2": { "_home": "Korea Republic", "_away": "Czechia",        "homeScore": 2, "awayScore": 2, "goals": [{ "team": "home", "player": "Julian Quinones", "minute": 9  },], "cards": [{ "team": "home", "player": "Cesar Montes", "minute": 90, "type": "red"    },] },
+				"3": { "_home": "Czechia",        "_away": "South Africa",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"4": { "_home": "Mexico",         "_away": "Korea Republic", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"5": { "_home": "South Africa",   "_away": "Korea Republic", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"6": { "_home": "Czechia",        "_away": "Mexico",         "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
+			}
+		},
 
-    "B": {
-      "teams": {
-        "1": { "_name": "Canada",      "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-        "2": { "_name": "Bosnia & H.", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-        "3": { "_name": "Qatar",       "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-        "4": { "_name": "Switzerland", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
-      },
-      "matches": {
-        "1": { "_home": "Canada",      "_away": "Bosnia & H.", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "2": { "_home": "Qatar",       "_away": "Switzerland", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "3": { "_home": "Switzerland", "_away": "Bosnia & H.", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "4": { "_home": "Canada",      "_away": "Qatar",       "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "5": { "_home": "Switzerland", "_away": "Canada",      "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "6": { "_home": "Bosnia & H.", "_away": "Qatar",       "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
-      }
-    },
+		"B": {
+			"teams": {
+				"1": { "_name": "Canada",      "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+				"2": { "_name": "Bosnia & H.", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+				"3": { "_name": "Qatar",       "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+				"4": { "_name": "Switzerland", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
+			},
+			"matches": {
+				"1": { "_home": "Canada",      "_away": "Bosnia & H.", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"2": { "_home": "Qatar",       "_away": "Switzerland", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"3": { "_home": "Switzerland", "_away": "Bosnia & H.", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"4": { "_home": "Canada",      "_away": "Qatar",       "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"5": { "_home": "Switzerland", "_away": "Canada",      "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"6": { "_home": "Bosnia & H.", "_away": "Qatar",       "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
+			}
+		},
 
-    "C": {
-      "teams": {
-        "1": { "_name": "Brazil",   "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-        "2": { "_name": "Morocco",  "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-        "3": { "_name": "Haiti",    "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-        "4": { "_name": "Scotland", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
-      },
-      "matches": {
-        "1": { "_home": "Brazil",   "_away": "Morocco",  "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "2": { "_home": "Haiti",    "_away": "Scotland", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "3": { "_home": "Scotland", "_away": "Morocco",  "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "4": { "_home": "Brazil",   "_away": "Haiti",    "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "5": { "_home": "Morocco",  "_away": "Haiti",    "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "6": { "_home": "Scotland", "_away": "Brazil",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
-      }
-    },
+		"C": {
+			"teams": {
+				"1": { "_name": "Brazil",   "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+				"2": { "_name": "Morocco",  "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+				"3": { "_name": "Haiti",    "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+				"4": { "_name": "Scotland", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
+			},
+			"matches": {
+				"1": { "_home": "Brazil",   "_away": "Morocco",  "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"2": { "_home": "Haiti",    "_away": "Scotland", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"3": { "_home": "Scotland", "_away": "Morocco",  "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"4": { "_home": "Brazil",   "_away": "Haiti",    "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"5": { "_home": "Morocco",  "_away": "Haiti",    "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"6": { "_home": "Scotland", "_away": "Brazil",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
+			}
+		},
 
-    "D": {
-      "teams": {
-        "1": { "_name": "USA",       "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-        "2": { "_name": "Paraguay",  "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-        "3": { "_name": "Australia", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-        "4": { "_name": "Turkiye",   "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
-      },
-      "matches": {
-        "1": { "_home": "USA",       "_away": "Paraguay",  "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "2": { "_home": "Australia", "_away": "Turkiye",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "3": { "_home": "USA",       "_away": "Australia", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "4": { "_home": "Turkiye",   "_away": "Paraguay",  "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "5": { "_home": "Turkiye",   "_away": "USA",       "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "6": { "_home": "Paraguay",  "_away": "Australia", "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
-      }
-    },
+		"D": {
+			"teams": {
+				"1": { "_name": "USA",       "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+				"2": { "_name": "Paraguay",  "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+				"3": { "_name": "Australia", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+				"4": { "_name": "Turkiye",   "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
+			},
+			"matches": {
+				"1": { "_home": "USA",       "_away": "Paraguay",  "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"2": { "_home": "Australia", "_away": "Turkiye",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"3": { "_home": "USA",       "_away": "Australia", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"4": { "_home": "Turkiye",   "_away": "Paraguay",  "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"5": { "_home": "Turkiye",   "_away": "USA",       "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"6": { "_home": "Paraguay",  "_away": "Australia", "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
+			}
+		},
 
-    "E": {
-      "teams": {
-        "1": { "_name": "Germany",       "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-        "2": { "_name": "Curacao",       "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-        "3": { "_name": "Cote d'Ivoire", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-        "4": { "_name": "Ecuador",       "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
-      },
-      "matches": {
-        "1": { "_home": "Germany",       "_away": "Curacao",       "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "2": { "_home": "Cote d'Ivoire", "_away": "Ecuador",       "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "3": { "_home": "Germany",       "_away": "Cote d'Ivoire", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "4": { "_home": "Ecuador",       "_away": "Curacao",       "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "5": { "_home": "Curacao",       "_away": "Cote d'Ivoire", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "6": { "_home": "Ecuador",       "_away": "Germany",       "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
-      }
-    },
+		"E": {
+			"teams": {
+				"1": { "_name": "Germany",       "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+				"2": { "_name": "Curacao",       "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+				"3": { "_name": "Cote d'Ivoire", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+				"4": { "_name": "Ecuador",       "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
+			},
+			"matches": {
+				"1": { "_home": "Germany",       "_away": "Curacao",       "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"2": { "_home": "Cote d'Ivoire", "_away": "Ecuador",       "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"3": { "_home": "Germany",       "_away": "Cote d'Ivoire", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"4": { "_home": "Ecuador",       "_away": "Curacao",       "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"5": { "_home": "Curacao",       "_away": "Cote d'Ivoire", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"6": { "_home": "Ecuador",       "_away": "Germany",       "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
+			}
+		},
 
-    "F": {
-      "teams": {
-        "1": { "_name": "Netherlands", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-        "2": { "_name": "Japan",       "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-        "3": { "_name": "Sweden",      "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-        "4": { "_name": "Tunisia",     "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
-      },
-      "matches": {
-        "1": { "_home": "Netherlands", "_away": "Japan",       "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "2": { "_home": "Sweden",      "_away": "Tunisia",     "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "3": { "_home": "Netherlands", "_away": "Sweden",      "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "4": { "_home": "Tunisia",     "_away": "Japan",       "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "5": { "_home": "Tunisia",     "_away": "Netherlands", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "6": { "_home": "Japan",       "_away": "Sweden",      "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
-      }
-    },
+		"F": {
+			"teams": {
+				"1": { "_name": "Netherlands", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+				"2": { "_name": "Japan",       "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+				"3": { "_name": "Sweden",      "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+				"4": { "_name": "Tunisia",     "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
+			},
+			"matches": {
+				"1": { "_home": "Netherlands", "_away": "Japan",       "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"2": { "_home": "Sweden",      "_away": "Tunisia",     "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"3": { "_home": "Netherlands", "_away": "Sweden",      "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"4": { "_home": "Tunisia",     "_away": "Japan",       "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"5": { "_home": "Tunisia",     "_away": "Netherlands", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"6": { "_home": "Japan",       "_away": "Sweden",      "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
+			}
+		},
 
-    "G": {
-      "teams": {
-        "1": { "_name": "Belgium",     "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-        "2": { "_name": "Egypt",       "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-        "3": { "_name": "IR Iran",     "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-        "4": { "_name": "New Zealand", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
-      },
-      "matches": {
-        "1": { "_home": "Belgium",     "_away": "Egypt",       "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "2": { "_home": "IR Iran",     "_away": "New Zealand", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "3": { "_home": "Belgium",     "_away": "IR Iran",     "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "4": { "_home": "New Zealand", "_away": "Egypt",       "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "5": { "_home": "New Zealand", "_away": "Belgium",     "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "6": { "_home": "Egypt",       "_away": "IR Iran",     "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
-      }
-    },
+		"G": {
+			"teams": {
+				"1": { "_name": "Belgium",     "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+				"2": { "_name": "Egypt",       "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+				"3": { "_name": "IR Iran",     "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+				"4": { "_name": "New Zealand", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
+			},
+			"matches": {
+				"1": { "_home": "Belgium",     "_away": "Egypt",       "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"2": { "_home": "IR Iran",     "_away": "New Zealand", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"3": { "_home": "Belgium",     "_away": "IR Iran",     "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"4": { "_home": "New Zealand", "_away": "Egypt",       "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"5": { "_home": "New Zealand", "_away": "Belgium",     "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"6": { "_home": "Egypt",       "_away": "IR Iran",     "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
+			}
+		},
 
-    "H": {
-      "teams": {
-        "1": { "_name": "Spain",        "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-        "2": { "_name": "Cabo Verde",   "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-        "3": { "_name": "Saudi Arabia", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-        "4": { "_name": "Uruguay",      "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
-      },
-      "matches": {
-        "1": { "_home": "Spain",        "_away": "Cabo Verde",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "2": { "_home": "Saudi Arabia", "_away": "Uruguay",      "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "3": { "_home": "Spain",        "_away": "Saudi Arabia", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "4": { "_home": "Uruguay",      "_away": "Cabo Verde",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "5": { "_home": "Cabo Verde",   "_away": "Saudi Arabia", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "6": { "_home": "Uruguay",      "_away": "Spain",        "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
-      }
-    },
+		"H": {
+			"teams": {
+				"1": { "_name": "Spain",        "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+				"2": { "_name": "Cabo Verde",   "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+				"3": { "_name": "Saudi Arabia", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+				"4": { "_name": "Uruguay",      "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
+			},
+			"matches": {
+				"1": { "_home": "Spain",        "_away": "Cabo Verde",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"2": { "_home": "Saudi Arabia", "_away": "Uruguay",      "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"3": { "_home": "Spain",        "_away": "Saudi Arabia", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"4": { "_home": "Uruguay",      "_away": "Cabo Verde",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"5": { "_home": "Cabo Verde",   "_away": "Saudi Arabia", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"6": { "_home": "Uruguay",      "_away": "Spain",        "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
+			}
+		},
 
-    "I": {
-      "teams": {
-        "1": { "_name": "France",  "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-        "2": { "_name": "Senegal", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-        "3": { "_name": "Iraq",    "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-        "4": { "_name": "Norway",  "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
-      },
-      "matches": {
-        "1": { "_home": "France",  "_away": "Senegal", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "2": { "_home": "Iraq",    "_away": "Norway",  "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "3": { "_home": "France",  "_away": "Iraq",    "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "4": { "_home": "Norway",  "_away": "Senegal", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "5": { "_home": "Norway",  "_away": "France",  "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "6": { "_home": "Senegal", "_away": "Iraq",    "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
-      }
-    },
+		"I": {
+			"teams": {
+				"1": { "_name": "France",  "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+				"2": { "_name": "Senegal", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+				"3": { "_name": "Iraq",    "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+				"4": { "_name": "Norway",  "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
+			},
+			"matches": {
+				"1": { "_home": "France",  "_away": "Senegal", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"2": { "_home": "Iraq",    "_away": "Norway",  "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"3": { "_home": "France",  "_away": "Iraq",    "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"4": { "_home": "Norway",  "_away": "Senegal", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"5": { "_home": "Norway",  "_away": "France",  "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"6": { "_home": "Senegal", "_away": "Iraq",    "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
+			}
+		},
 
-    "J": {
-      "teams": {
-        "1": { "_name": "Argentina", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-        "2": { "_name": "Algeria",   "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-        "3": { "_name": "Austria",   "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-        "4": { "_name": "Jordan",    "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
-      },
-      "matches": {
-        "1": { "_home": "Argentina", "_away": "Algeria",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "2": { "_home": "Austria",   "_away": "Jordan",    "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "3": { "_home": "Argentina", "_away": "Austria",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "4": { "_home": "Jordan",    "_away": "Algeria",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "5": { "_home": "Algeria",   "_away": "Austria",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "6": { "_home": "Jordan",    "_away": "Argentina", "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
-      }
-    },
+		"J": {
+			"teams": {
+				"1": { "_name": "Argentina", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+				"2": { "_name": "Algeria",   "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+				"3": { "_name": "Austria",   "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+				"4": { "_name": "Jordan",    "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
+			},
+			"matches": {
+				"1": { "_home": "Argentina", "_away": "Algeria",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"2": { "_home": "Austria",   "_away": "Jordan",    "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"3": { "_home": "Argentina", "_away": "Austria",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"4": { "_home": "Jordan",    "_away": "Algeria",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"5": { "_home": "Algeria",   "_away": "Austria",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"6": { "_home": "Jordan",    "_away": "Argentina", "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
+			}
+		},
 
-    "K": {
-      "teams": {
-        "1": { "_name": "Portugal",   "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-        "2": { "_name": "DR Congo",   "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-        "3": { "_name": "Uzbekistan", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-        "4": { "_name": "Colombia",   "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
-      },
-      "matches": {
-        "1": { "_home": "Portugal",   "_away": "DR Congo",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "2": { "_home": "Uzbekistan", "_away": "Colombia",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "3": { "_home": "Portugal",   "_away": "Uzbekistan", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "4": { "_home": "Colombia",   "_away": "DR Congo",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "5": { "_home": "Colombia",   "_away": "Portugal",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "6": { "_home": "DR Congo",   "_away": "Uzbekistan", "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
-      }
-    },
+		"K": {
+			"teams": {
+				"1": { "_name": "Portugal",   "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+				"2": { "_name": "DR Congo",   "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+				"3": { "_name": "Uzbekistan", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+				"4": { "_name": "Colombia",   "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
+			},
+			"matches": {
+				"1": { "_home": "Portugal",   "_away": "DR Congo",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"2": { "_home": "Uzbekistan", "_away": "Colombia",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"3": { "_home": "Portugal",   "_away": "Uzbekistan", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"4": { "_home": "Colombia",   "_away": "DR Congo",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"5": { "_home": "Colombia",   "_away": "Portugal",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"6": { "_home": "DR Congo",   "_away": "Uzbekistan", "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
+			}
+		},
 
-    "L": {
-      "teams": {
-        "1": { "_name": "England", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-        "2": { "_name": "Croatia", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-        "3": { "_name": "Ghana",   "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-        "4": { "_name": "Panama",  "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
-      },
-      "matches": {
-        "1": { "_home": "England", "_away": "Croatia", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "2": { "_home": "Ghana",   "_away": "Panama",  "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "3": { "_home": "England", "_away": "Ghana",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "4": { "_home": "Panama",  "_away": "Croatia", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "5": { "_home": "Panama",  "_away": "England", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-        "6": { "_home": "Croatia", "_away": "Ghana",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
-      }
-    }
+		"L": {
+			"teams": {
+				"1": { "_name": "England", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+				"2": { "_name": "Croatia", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+				"3": { "_name": "Ghana",   "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+				"4": { "_name": "Panama",  "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
+			},
+			"matches": {
+				"1": { "_home": "England", "_away": "Croatia", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"2": { "_home": "Ghana",   "_away": "Panama",  "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"3": { "_home": "England", "_away": "Ghana",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"4": { "_home": "Panama",  "_away": "Croatia", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"5": { "_home": "Panama",  "_away": "England", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"6": { "_home": "Croatia", "_away": "Ghana",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
+			}
+		}
 
-  },
+	},
 
-  "Knockout": {
-    "Round32": {
-      "1":  { "_info": "Winner E    vs 3rd A/B/C/D/F",  "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-      "2":  { "_info": "Winner I    vs 3rd C/D/F/G/H",  "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-      "3":  { "_info": "Runner-up A vs Runner-up B",     "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-      "4":  { "_info": "Winner F    vs Runner-up C",     "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-      "5":  { "_info": "Runner-up K vs Runner-up L",     "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-      "6":  { "_info": "Winner H    vs Runner-up J",     "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-      "7":  { "_info": "Winner D    vs 3rd B/E/F/I/J",  "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-      "8":  { "_info": "Winner G    vs 3rd A/E/H/I/J",  "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-      "9":  { "_info": "Winner C    vs Winner F",        "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-      "10": { "_info": "Runner-up E vs Runner-up I",     "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-      "11": { "_info": "Winner A    vs 3rd C/E/F/H/I",  "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-      "12": { "_info": "Winner L    vs 3rd E/H/I/J/K",  "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-      "13": { "_info": "Winner J    vs Runner-up H",     "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-      "14": { "_info": "Runner-up D vs Runner-up G",     "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-      "15": { "_info": "Winner B    vs 3rd E/F/G/I/J",  "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-      "16": { "_info": "Winner K    vs 3rd D/E/I/J/L",  "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] }
-    },
-    "Round16": {
-      "1": { "_info": "W R32_1  vs W R32_2",  "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-      "2": { "_info": "W R32_3  vs W R32_4",  "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-      "3": { "_info": "W R32_5  vs W R32_6",  "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-      "4": { "_info": "W R32_7  vs W R32_8",  "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-      "5": { "_info": "W R32_9  vs W R32_10", "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-      "6": { "_info": "W R32_11 vs W R32_12", "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-      "7": { "_info": "W R32_13 vs W R32_14", "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-      "8": { "_info": "W R32_15 vs W R32_16", "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] }
-    },
-    "QuarterFinal": {
-      "1": { "_info": "W R16_1 vs W R16_2", "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-      "2": { "_info": "W R16_3 vs W R16_4", "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-      "3": { "_info": "W R16_5 vs W R16_6", "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-      "4": { "_info": "W R16_7 vs W R16_8", "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] }
-    },
-    "SemiFinal": {
-      "1": { "_info": "W QF_1 vs W QF_2", "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-      "2": { "_info": "W QF_3 vs W QF_4", "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] }
-    },
-    "Final": {
-      "1": { "_info": "W SF_1 vs W SF_2", "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] }
-    },
-    "ThirdPlace": {
-      "1": { "_info": "L SF_1 vs L SF_2", "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] }
-    }
-  }
+	"Knockout": {
+		"Round32": {
+			"1":  { "_info": "Winner E    vs 3rd A/B/C/D/F",  "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+			"2":  { "_info": "Winner I    vs 3rd C/D/F/G/H",  "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+			"3":  { "_info": "Runner-up A vs Runner-up B",     "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+			"4":  { "_info": "Winner F    vs Runner-up C",     "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+			"5":  { "_info": "Runner-up K vs Runner-up L",     "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+			"6":  { "_info": "Winner H    vs Runner-up J",     "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+			"7":  { "_info": "Winner D    vs 3rd B/E/F/I/J",  "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+			"8":  { "_info": "Winner G    vs 3rd A/E/H/I/J",  "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+			"9":  { "_info": "Winner C    vs Winner F",        "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+			"10": { "_info": "Runner-up E vs Runner-up I",     "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+			"11": { "_info": "Winner A    vs 3rd C/E/F/H/I",  "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+			"12": { "_info": "Winner L    vs 3rd E/H/I/J/K",  "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+			"13": { "_info": "Winner J    vs Runner-up H",     "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+			"14": { "_info": "Runner-up D vs Runner-up G",     "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+			"15": { "_info": "Winner B    vs 3rd E/F/G/I/J",  "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+			"16": { "_info": "Winner K    vs 3rd D/E/I/J/L",  "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] }
+		},
+		"Round16": {
+			"1": { "_info": "W R32_1  vs W R32_2",  "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+			"2": { "_info": "W R32_3  vs W R32_4",  "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+			"3": { "_info": "W R32_5  vs W R32_6",  "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+			"4": { "_info": "W R32_7  vs W R32_8",  "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+			"5": { "_info": "W R32_9  vs W R32_10", "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+			"6": { "_info": "W R32_11 vs W R32_12", "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+			"7": { "_info": "W R32_13 vs W R32_14", "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+			"8": { "_info": "W R32_15 vs W R32_16", "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] }
+		},
+		"QuarterFinal": {
+			"1": { "_info": "W R16_1 vs W R16_2", "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+			"2": { "_info": "W R16_3 vs W R16_4", "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+			"3": { "_info": "W R16_5 vs W R16_6", "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+			"4": { "_info": "W R16_7 vs W R16_8", "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] }
+		},
+		"SemiFinal": {
+			"1": { "_info": "W QF_1 vs W QF_2", "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+			"2": { "_info": "W QF_3 vs W QF_4", "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] }
+		},
+		"Final": {
+			"1": { "_info": "W SF_1 vs W SF_2", "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] }
+		},
+		"ThirdPlace": {
+			"1": { "_info": "L SF_1 vs L SF_2", "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] }
+		}
+	}
 }
