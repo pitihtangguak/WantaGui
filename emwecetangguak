@@ -45,7 +45,12 @@
 				"4": { "_name": "Switzerland", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
 			},
 			"matches": {
-				"1": { "_home": "Canada",      "_away": "Bosnia & H.", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"1": { "_home": "Canada",      "_away": "Bosnia & H.", "homeScore": 1, "awayScore": 1, "goals": [
+                   { "team": "home", "player": "Cyle Larin", "minute": 78  },
+                   { "team": "away", "player": "Jovo Lukić", "minute": 21  }
+                ], "cards": [
+                  { "team": "away", "player": "Nikola Katić",    "minute": 92 }
+                ] },
 				"2": { "_home": "Qatar",       "_away": "Switzerland", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"3": { "_home": "Switzerland", "_away": "Bosnia & H.", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"4": { "_home": "Canada",      "_away": "Qatar",       "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
