@@ -13,21 +13,21 @@
 					"_home": "Mexico", "_away": "South Africa",
 					"homeScore": 2, "awayScore": 0,
 					"goals": [
-					{ "team": "home", "player": "Julian Quinones", "minute": 9  },
-					{ "team": "home", "player": "Raul Jimenez",    "minute": 67 }
+					{ "team": "home", "player": "Julian Quinones", "minute": "9"  },
+					{ "team": "home", "player": "Raul Jimenez",    "minute": "67" }
 					],
 					"cards": [
-					{ "team": "home", "player": "Cesar Montes", "minute": 90, "type": "red"    },
-					{ "team": "away", "player": "Yaya Sithole",  "minute": 50, "type": "yellow" },
-					{ "team": "away", "player": "Themba Zwane",  "minute": 84, "type": "yellow" }
+					{ "team": "home", "player": "Cesar Montes", "minute": "90", "type": "red"    },
+					{ "team": "away", "player": "Yaya Sithole",  "minute": "50", "type": "yellow" },
+					{ "team": "away", "player": "Themba Zwane",  "minute": "84", "type": "yellow" }
 					]
 				},
 				"2": { "_home": "South Korea", "_away": "Czechia",
                   "homeScore": 2, "awayScore": 1,
                 	"goals": [
-					{ "team": "home", "player": "Hwang In-beom", "minute": 67  },
-					{ "team": "home", "player": "Oh Hyeon-gyu",    "minute": 80 },
-                  { "team": "away", "player": "Ladislav Krejčí",    "minute": 59 }
+					{ "team": "home", "player": "Hwang In-beom", "minute": "67"  },
+					{ "team": "home", "player": "Oh Hyeon-gyu",    "minute": "80" },
+                  { "team": "away", "player": "Ladislav Krejčí",    "minute": "59" }
 					],
 					"cards": []},
 				"3": { "_home": "Czechia",        "_away": "South Africa",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
@@ -46,10 +46,10 @@
 			},
 			"matches": {
 				"1": { "_home": "Canada",      "_away": "Bosnia & H.", "homeScore": 1, "awayScore": 1, "goals": [
-                   { "team": "home", "player": "Cyle Larin", "minute": 78  },
-                   { "team": "away", "player": "Jovo Lukić", "minute": 21  }
+                   { "team": "home", "player": "Cyle Larin", "minute": "78"  },
+                   { "team": "away", "player": "Jovo Lukić", "minute": "21"  }
                 ], "cards": [
-                  { "team": "away", "player": "Nikola Katić",    "minute": 92 }
+                  { "team": "away", "player": "Nikola Katić",    "minute": "90+2" }
                 ] },
 				"2": { "_home": "Qatar",       "_away": "Switzerland", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"3": { "_home": "Switzerland", "_away": "Bosnia & H.", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
