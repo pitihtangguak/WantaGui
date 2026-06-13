@@ -94,10 +94,10 @@
                 ], "cards": [
                   { "team": "away", "player": "Juan José Cáceres",    "minute": "10" },
                   { "team": "away", "player": "Miguel Almirón",    "minute": "53" },
+                  { "team": "home", "player": "Tyler Adams",    "minute": "59" },
                   { "team": "away", "player": "Diego Gómez",    "minute": "79" },
                   { "team": "away", "player": "Álex Arce",    "minute": "88" },
-                  { "team": "away", "player": "Júnior Alonso",    "minute": "90+2"},
-                  { "team": "home", "player": "Tyler Adams",    "minute": "59" }
+                  { "team": "away", "player": "Júnior Alonso",    "minute": "90+2"}
                 ] },
 				"2": { "_home": "Australia", "_away": "Turkiye",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"3": { "_home": "USA",       "_away": "Australia", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
