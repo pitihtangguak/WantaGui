@@ -42,8 +42,8 @@
 			"teams": {
 				"1": { "_name": "Canada",      "points": 1, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 1, "ga": 1 },
 				"2": { "_name": "Bosnia & H.", "points": 1, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 1, "ga": 1 },
-				"3": { "_name": "Qatar",       "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"4": { "_name": "Switzerland", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
+				"3": { "_name": "Qatar",       "points": 1, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 1, "ga": 1 },
+				"4": { "_name": "Switzerland", "points": 1, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 1, "ga": 1 }
 			},
 			"matches": {
 				"1": { "_home": "Canada",      "_away": "Bosnia & H.", "homeScore": 1, "awayScore": 1, "goals": [
@@ -52,7 +52,14 @@
                 ], "cards": [
                   { "team": "away", "player": "Nikola Katić",    "minute": "90+2" }
                 ] },
-				"2": { "_home": "Qatar",       "_away": "Switzerland", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"2": { "_home": "Qatar",       "_away": "Switzerland", "homeScore": 1, "awayScore": 1, "goals": [
+                   { "team": "away", "player": "Breel Embolo", "minute": "17"  },
+                   { "team": "home", "player": "Boualem Khoukhi", "minute": "90+4"  }
+                ], "cards": [
+                   { "team": "home", "player": "Mahmud Abunada",    "minute": "16" },
+                   { "team": "home", "player": "Jassem Gaber Abdulsallam",    "minute": "23" },
+                   { "team": "away", "player": "Denis Zakaria",    "minute": "42" }
+                ] },
 				"3": { "_home": "Switzerland", "_away": "Bosnia & H.", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"4": { "_home": "Canada",      "_away": "Qatar",       "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"5": { "_home": "Switzerland", "_away": "Canada",      "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
