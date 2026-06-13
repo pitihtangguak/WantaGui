@@ -91,7 +91,14 @@
                   { "team": "home", "player": "Folarin Balogun",    "minute": "45+5" },
                   { "team": "home", "player": "Giovanni Reyna",    "minute": "90+8" },
                   { "team": "away", "player": "Maurício",    "minute": "73" }
-                ], "cards": [] },
+                ], "cards": [
+                  { "team": "away", "player": "Juan José Cáceres",    "minute": "10" },
+                  { "team": "away", "player": "Miguel Almirón",    "minute": "53" },
+                  { "team": "away", "player": "Diego Gómez",    "minute": "79" },
+                  { "team": "away", "player": "Álex Arce",    "minute": "88" },
+                  { "team": "away", "player": "Júnior Alonso",    "minute": "90+2"},
+                  { "team": "home", "player": "Tyler Adams",    "minute": "59" }
+                ] },
 				"2": { "_home": "Australia", "_away": "Turkiye",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"3": { "_home": "USA",       "_away": "Australia", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"4": { "_home": "Turkiye",   "_away": "Paraguay",  "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
