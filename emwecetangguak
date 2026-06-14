@@ -125,7 +125,13 @@
                   { "team": "away", "player": "Álex Arce",    "minute": "88" ,"type": "yellow"},
                   { "team": "away", "player": "Júnior Alonso",    "minute": "90+2","type": "yellow"}
                 ] },
-				"2": { "_home": "Australia", "_away": "Turkiye",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"2": { "_home": "Australia", "_away": "Turkiye",   "homeScore": null, "awayScore": null, 
+                  "goals": [
+                  { "team": "home", "player": "Nestory Irankunda", "minute": "27"  },
+                    { "team": "home", "player": "Connor Metcalfe", "minute": "75"  }
+                  ], "cards": [
+                    { "team": "away", "player": "Yunus Akgün",    "minute": "86","type": "yellow" }
+                  ] },
 				"3": { "_home": "USA",       "_away": "Australia", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"4": { "_home": "Turkiye",   "_away": "Paraguay",  "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"5": { "_home": "Turkiye",   "_away": "USA",       "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
