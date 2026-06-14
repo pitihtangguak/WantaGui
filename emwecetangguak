@@ -17,9 +17,12 @@
 					{ "team": "home", "player": "Raul Jimenez",    "minute": "67" }
 					],
 					"cards": [
-					{ "team": "home", "player": "Cesar Montes", "minute": "90", "type": "red"    },
-					{ "team": "away", "player": "Yaya Sithole",  "minute": "50", "type": "yellow" },
-					{ "team": "away", "player": "Themba Zwane",  "minute": "84", "type": "yellow" }
+                  { "team": "away", "player": "Teboho Mokoena",  "minute": "17", "type": "yellow" },
+                  { "team": "home", "player": "Brian Gutiérrez",  "minute": "23", "type": "yellow" },
+                  { "team": "away", "player": "Yaya Sithole",  "minute": "50", "type": "red" },
+                  { "team": "away", "player": "Nkosinathi Sibisi",  "minute": "74", "type": "yellow" },
+                  { "team": "away", "player": "Themba Zwane",  "minute": "84", "type": "red" },
+					{ "team": "home", "player": "Cesar Montes", "minute": "90+1", "type": "red"}
 					]
 				},
 				"2": { "_home": "South Korea", "_away": "Czechia",
@@ -30,7 +33,8 @@
                   { "team": "away", "player": "Ladislav Krejčí",    "minute": "59" }
 					],
 					"cards": [
-                   { "team": "home", "player": "Lee Gi-hyuk", "minute": "90+5", "type": "yellow"    }]},
+                   { "team": "home", "player": "Lee Gi-hyuk", "minute": "90+5", "type": "yellow"    }
+                    ]},
 				"3": { "_home": "Czechia",        "_away": "South Africa",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"4": { "_home": "Mexico",         "_away": "South Korea", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"5": { "_home": "South Africa",   "_away": "South Korea", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
@@ -56,9 +60,9 @@
                    { "team": "away", "player": "Breel Embolo", "minute": "17"  },
                    { "team": "home", "player": "Boualem Khoukhi", "minute": "90+4"  }
                 ], "cards": [
-                   { "team": "home", "player": "Mahmud Abunada",    "minute": "16" },
-                   { "team": "home", "player": "Jassem Gaber Abdulsallam",    "minute": "23" },
-                   { "team": "away", "player": "Denis Zakaria",    "minute": "42" }
+                   { "team": "home", "player": "Mahmud Abunada",    "minute": "16" ,"type": "yellow"},
+                   { "team": "home", "player": "Jassem Gaber Abdulsallam",    "minute": "23","type": "yellow" },
+                   { "team": "away", "player": "Denis Zakaria",    "minute": "42","type": "yellow" }
                 ] },
 				"3": { "_home": "Switzerland", "_away": "Bosnia & H.", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"4": { "_home": "Canada",      "_away": "Qatar",       "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
@@ -80,8 +84,8 @@
                 { "team": "away", "player": "Ismael Saibari", "minute": "21"  },
                 { "team": "home", "player": "Vinícius Júnior", "minute": "32"  }
                 ], "cards": [
-                { "team": "home", "player": "Casemiro", "minute": "37"  },
-                  { "team": "home", "player": "Roger Ibanez", "minute": "43"  }
+                { "team": "home", "player": "Casemiro", "minute": "37" ,"type": "yellow" },
+                  { "team": "home", "player": "Roger Ibanez", "minute": "43" ,"type": "yellow" }
                 ] },
 				"2": { "_home": "Haiti",    "_away": "Scotland", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"3": { "_home": "Scotland", "_away": "Morocco",  "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
@@ -106,12 +110,12 @@
                   { "team": "home", "player": "Giovanni Reyna",    "minute": "90+8" },
                   { "team": "away", "player": "Maurício",    "minute": "73" }
                 ], "cards": [
-                  { "team": "away", "player": "Juan José Cáceres",    "minute": "10" },
-                  { "team": "away", "player": "Miguel Almirón",    "minute": "53" },
-                  { "team": "home", "player": "Tyler Adams",    "minute": "59" },
-                  { "team": "away", "player": "Diego Gómez",    "minute": "79" },
-                  { "team": "away", "player": "Álex Arce",    "minute": "88" },
-                  { "team": "away", "player": "Júnior Alonso",    "minute": "90+2"}
+                  { "team": "away", "player": "Juan José Cáceres",    "minute": "10","type": "yellow" },
+                  { "team": "away", "player": "Miguel Almirón",    "minute": "53" ,"type": "yellow"},
+                  { "team": "home", "player": "Tyler Adams",    "minute": "59" ,"type": "yellow"},
+                  { "team": "away", "player": "Diego Gómez",    "minute": "79" ,"type": "yellow"},
+                  { "team": "away", "player": "Álex Arce",    "minute": "88" ,"type": "yellow"},
+                  { "team": "away", "player": "Júnior Alonso",    "minute": "90+2","type": "yellow"}
                 ] },
 				"2": { "_home": "Australia", "_away": "Turkiye",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"3": { "_home": "USA",       "_away": "Australia", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
