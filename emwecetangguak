@@ -125,7 +125,7 @@
                   { "team": "away", "player": "Álex Arce",    "minute": "88" ,"type": "yellow"},
                   { "team": "away", "player": "Júnior Alonso",    "minute": "90+2","type": "yellow"}
                 ] },
-				"2": { "_home": "Australia", "_away": "Turkiye",   "homeScore": null, "awayScore": null, 
+				"2": { "_home": "Australia", "_away": "Turkiye",   "homeScore": 1, "awayScore": 0, 
                   "goals": [
                   { "team": "home", "player": "Nestory Irankunda", "minute": "27"  },
                     { "team": "home", "player": "Connor Metcalfe", "minute": "75"  }
