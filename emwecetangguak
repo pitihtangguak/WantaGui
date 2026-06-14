@@ -147,7 +147,7 @@
 				"4": { "_name": "Ecuador",       "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
 			},
 			"matches": {
-				"1": { "_home": "Germany",       "_away": "Curacao",       "homeScore": null, "awayScore": null, 
+				"1": { "_home": "Germany",       "_away": "Curacao",       "homeScore": 7, "awayScore": 1, 
                   "goals": [
                     { "team": "home", "player": "Felix Nmecha", "minute": "6"  },
                     { "team": "away", "player": "Livano Comenencia", "minute": "21"  },
