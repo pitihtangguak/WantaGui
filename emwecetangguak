@@ -141,13 +141,24 @@
 
 		"E": {
 			"teams": {
-				"1": { "_name": "Germany",       "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"2": { "_name": "Curacao",       "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+				"1": { "_name": "Germany",       "points": 3, "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 7, "ga": 1 },
+				"2": { "_name": "Curacao",       "points": 0, "played": 1, "won": 0, "drawn": 0, "lost": 1, "gf": 1, "ga": 7 },
 				"3": { "_name": "Cote d'Ivoire", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
 				"4": { "_name": "Ecuador",       "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
 			},
 			"matches": {
-				"1": { "_home": "Germany",       "_away": "Curacao",       "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"1": { "_home": "Germany",       "_away": "Curacao",       "homeScore": null, "awayScore": null, 
+                  "goals": [
+                    { "team": "home", "player": "Felix Nmecha", "minute": "6"  },
+                    { "team": "away", "player": "Livano Comenencia", "minute": "21"  },
+                    { "team": "home", "player": "Nico Schlotterbeck", "minute": "38"  },
+                    { "team": "home", "player": "Kai Havertz", "minute": "45+4"  },
+                    { "team": "home", "player": "Jamal Musiala", "minute": "47"  },
+                    { "team": "home", "player": "Nathaniel Brown", "minute": "68"  },
+                    { "team": "home", "player": "Deniz Undav", "minute": "78"  }
+                  ], "cards": [
+                    
+                  ] },
 				"2": { "_home": "Cote d'Ivoire", "_away": "Ecuador",       "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"3": { "_home": "Germany",       "_away": "Cote d'Ivoire", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"4": { "_home": "Ecuador",       "_away": "Curacao",       "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
