@@ -75,8 +75,8 @@
 			"teams": {
 				"1": { "_name": "Brazil",   "points": 1, "played": 1, "won": 0, "drawn": 0, "lost": 0, "gf": 1, "ga": 1 },
 				"2": { "_name": "Morocco",  "points": 1, "played": 1, "won": 0, "drawn": 0, "lost": 0, "gf": 1, "ga": 1 },
-				"3": { "_name": "Haiti",    "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"4": { "_name": "Scotland", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
+				"3": { "_name": "Haiti",    "points": 0, "played": 1, "won": 0, "drawn": 0, "lost": 1, "gf": 0, "ga": 1 },
+				"4": { "_name": "Scotland", "points": 3, "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 1, "ga": 0 }
 			},
 			"matches": {
 				"1": { "_home": "Brazil",   "_away": "Morocco",  "homeScore": 1, "awayScore": 1, 
