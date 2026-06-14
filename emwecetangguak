@@ -107,8 +107,8 @@
 			"teams": {
 				"1": { "_name": "USA",       "points": 3, "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 4, "ga": 1 },
 				"2": { "_name": "Paraguay",  "points": 0, "played": 1, "won": 0, "drawn": 0, "lost": 1, "gf": 1, "ga": 4 },
-				"3": { "_name": "Australia", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"4": { "_name": "Turkiye",   "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
+				"3": { "_name": "Australia", "points": 3, "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 2, "ga": 0 },
+				"4": { "_name": "Turkiye",   "points": 0, "played": 1, "won": 0, "drawn": 0, "lost": 1, "gf": 0, "ga": 2 }
 			},
 			"matches": {
 				"1": { "_home": "USA",       "_away": "Paraguay",  "homeScore": 4, "awayScore": 1, "goals": [
