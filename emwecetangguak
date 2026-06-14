@@ -85,9 +85,17 @@
                 { "team": "home", "player": "Vinícius Júnior", "minute": "32"  }
                 ], "cards": [
                 { "team": "home", "player": "Casemiro", "minute": "37" ,"type": "yellow" },
-                  { "team": "home", "player": "Roger Ibanez", "minute": "43" ,"type": "yellow" }
+                { "team": "home", "player": "Roger Ibanez", "minute": "43" ,"type": "yellow" }
                 ] },
-				"2": { "_home": "Haiti",    "_away": "Scotland", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"2": { "_home": "Haiti",    "_away": "Scotland", "homeScore": 0, "awayScore": 1, 
+                  "goals": [
+                  { "team": "away", "player": "John McGinn", "minute": "28"  }
+                ], "cards": [
+                 { "team": "home", "player": "Jean-Ricner Bellegarde", "minute": "39" ,"type": "yellow" },
+                 { "team": "away", "player": "Aaron Hickey", "minute": "46" ,"type": "yellow" },
+                 { "team": "away", "player": "Findlay Curtis", "minute": "90" ,"type": "yellow" },
+                 { "team": "away", "player": "Kenny McLean", "minute": "90+4" ,"type": "yellow" }
+                ] },
 				"3": { "_home": "Scotland", "_away": "Morocco",  "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"4": { "_home": "Brazil",   "_away": "Haiti",    "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"5": { "_home": "Morocco",  "_away": "Haiti",    "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
