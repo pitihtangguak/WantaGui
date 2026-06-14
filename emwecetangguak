@@ -69,13 +69,20 @@
 
 		"C": {
 			"teams": {
-				"1": { "_name": "Brazil",   "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"2": { "_name": "Morocco",  "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+				"1": { "_name": "Brazil",   "points": 1, "played": 1, "won": 0, "drawn": 0, "lost": 0, "gf": 1, "ga": 1 },
+				"2": { "_name": "Morocco",  "points": 1, "played": 1, "won": 0, "drawn": 0, "lost": 0, "gf": 1, "ga": 1 },
 				"3": { "_name": "Haiti",    "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
 				"4": { "_name": "Scotland", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
 			},
 			"matches": {
-				"1": { "_home": "Brazil",   "_away": "Morocco",  "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"1": { "_home": "Brazil",   "_away": "Morocco",  "homeScore": 1, "awayScore": 1, 
+                  "goals": [
+                { "team": "away", "player": "Ismael Saibari", "minute": "21"  },
+                { "team": "home", "player": "Vinícius Júnior", "minute": "32"  }
+                ], "cards": [
+                { "team": "home", "player": "Casemiro", "minute": "37"  },
+                  { "team": "home", "player": "Roger Ibanez", "minute": "43"  }
+                ] },
 				"2": { "_home": "Haiti",    "_away": "Scotland", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"3": { "_home": "Scotland", "_away": "Morocco",  "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"4": { "_home": "Brazil",   "_away": "Haiti",    "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
