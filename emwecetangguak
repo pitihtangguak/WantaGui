@@ -169,13 +169,22 @@
 
 		"F": {
 			"teams": {
-				"1": { "_name": "Netherlands", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"2": { "_name": "Japan",       "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+				"1": { "_name": "Netherlands", "points": 1, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 2, "ga": 2 },
+				"2": { "_name": "Japan",       "points": 1, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 2, "ga": 2 },
 				"3": { "_name": "Sweden",      "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
 				"4": { "_name": "Tunisia",     "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
 			},
 			"matches": {
-				"1": { "_home": "Netherlands", "_away": "Japan",       "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"1": { "_home": "Netherlands", "_away": "Japan",       "homeScore": 2, "awayScore": 2, "goals": [
+                  { "team": "home", "player": "Virgil van Dijk", "minute": "51"  },
+                  { "team": "away", "player": "Keito Nakamura", "minute": "57"  },
+                  { "team": "home", "player": "Crysencio Summerville", "minute": "64"  },
+                  { "team": "away", "player": "Daichi Kamada", "minute": "89"  }
+                ], "cards": [
+                  { "team": "home", "player": "Crysencio Summerville",    "minute": "61","type": "yellow" },
+                  { "team": "home", "player": "Memphis Depay",    "minute": "83","type": "yellow" },
+                  { "team": "home", "player": "Micky van de Ven",    "minute": "90","type": "yellow" }
+                ] },
 				"2": { "_home": "Sweden",      "_away": "Tunisia",     "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"3": { "_home": "Netherlands", "_away": "Sweden",      "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"4": { "_home": "Tunisia",     "_away": "Japan",       "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
