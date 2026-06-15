@@ -178,8 +178,8 @@
 			"teams": {
 				"1": { "_name": "Netherlands", "points": 1, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 2, "ga": 2 },
 				"2": { "_name": "Japan",       "points": 1, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 2, "ga": 2 },
-				"3": { "_name": "Sweden",      "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"4": { "_name": "Tunisia",     "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
+				"3": { "_name": "Sweden",      "points": 3, "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 5, "ga": 1 },
+				"4": { "_name": "Tunisia",     "points": 0, "played": 1, "won": 0, "drawn": 0, "lost": 0, "gf": 1, "ga": 5 }
 			},
 			"matches": {
 				"1": { "_home": "Netherlands", "_away": "Japan",       "homeScore": 2, "awayScore": 2, "goals": [
@@ -192,7 +192,16 @@
                   { "team": "home", "player": "Memphis Depay",    "minute": "83","type": "yellow" },
                   { "team": "home", "player": "Micky van de Ven",    "minute": "90","type": "yellow" }
                 ] },
-				"2": { "_home": "Sweden",      "_away": "Tunisia",     "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"2": { "_home": "Sweden",      "_away": "Tunisia",     "homeScore": null, "awayScore": null, "goals": [
+                  { "team": "home", "player": "Yasin Ayari", "minute": "7"  },
+                  { "team": "home", "player": "Alexander Isak", "minute": "30"  },
+                  { "team": "away", "player": "Omar Rekik", "minute": "43"  },
+                  { "team": "home", "player": "Viktor Gyökeres", "minute": "59"  },
+                  { "team": "home", "player": "Mattias Svanberg", "minute": "84"  },
+                  { "team": "home", "player": "Yasin Ayari", "minute": "90+5"  }
+                ], "cards": [
+                  { "team": "away", "player": "Rani Khedira",    "minute": "61","type": "yellow" }
+                ] },
 				"3": { "_home": "Netherlands", "_away": "Sweden",      "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"4": { "_home": "Tunisia",     "_away": "Japan",       "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"5": { "_home": "Tunisia",     "_away": "Netherlands", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
