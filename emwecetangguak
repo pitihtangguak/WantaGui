@@ -192,7 +192,8 @@
                   { "team": "home", "player": "Memphis Depay",    "minute": "83","type": "yellow" },
                   { "team": "home", "player": "Micky van de Ven",    "minute": "90","type": "yellow" }
                 ] },
-				"2": { "_home": "Sweden",      "_away": "Tunisia",     "homeScore": null, "awayScore": null, "goals": [
+				"2": { "_home": "Sweden",      "_away": "Tunisia",     "homeScore": 5, "awayScore": 1, 
+                  "goals": [
                   { "team": "home", "player": "Yasin Ayari", "minute": "7"  },
                   { "team": "home", "player": "Alexander Isak", "minute": "30"  },
                   { "team": "away", "player": "Omar Rekik", "minute": "43"  },
