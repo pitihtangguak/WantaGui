@@ -143,8 +143,8 @@
 			"teams": {
 				"1": { "_name": "Germany",       "points": 3, "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 7, "ga": 1 },
 				"2": { "_name": "Curacao",       "points": 0, "played": 1, "won": 0, "drawn": 0, "lost": 1, "gf": 1, "ga": 7 },
-				"3": { "_name": "Cote d'Ivoire", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"4": { "_name": "Ecuador",       "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
+				"3": { "_name": "Cote d'Ivoire", "points": 3, "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 1, "ga": 0 },
+				"4": { "_name": "Ecuador",       "points": 0, "played": 1, "won": 0, "drawn": 0, "lost": 1, "gf": 0, "ga": 1 }
 			},
 			"matches": {
 				"1": { "_home": "Germany",       "_away": "Curacao",       "homeScore": 7, "awayScore": 1, 
@@ -159,7 +159,14 @@
                   ], "cards": [
                     
                   ] },
-				"2": { "_home": "Cote d'Ivoire", "_away": "Ecuador",       "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"2": { "_home": "Cote d'Ivoire", "_away": "Ecuador",       "homeScore": 1, "awayScore": 0, "goals": [
+                  { "team": "home", "player": "Amad Diallo", "minute": "90"  }
+                ], "cards": [
+                  { "team": "home", "player": "Seko Fofana",    "minute": "28","type": "yellow" },
+                  { "team": "home", "player": "Franck Kessié",    "minute": "38","type": "yellow" },
+                  { "team": "home", "player": "Guéla Doué",    "minute": "40","type": "yellow" },
+                  { "team": "home", "player": "Jackson Porozo",    "minute": "73","type": "yellow" }
+                ] },
 				"3": { "_home": "Germany",       "_away": "Cote d'Ivoire", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"4": { "_home": "Ecuador",       "_away": "Curacao",       "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"5": { "_home": "Curacao",       "_away": "Cote d'Ivoire", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
