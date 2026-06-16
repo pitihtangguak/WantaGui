@@ -214,8 +214,8 @@
 			"teams": {
 				"1": { "_name": "Belgium",     "points": 1, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 1, "ga": 1 },
 				"2": { "_name": "Egypt",       "points": 1, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 1, "ga": 1 },
-				"3": { "_name": "IR Iran",     "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"4": { "_name": "New Zealand", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
+				"3": { "_name": "IR Iran",     "points": 1, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 2, "ga": 2 },
+				"4": { "_name": "New Zealand", "points": 1, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 2, "ga": 2 }
 			},
 			"matches": {
 				"1": { "_home": "Belgium",     "_away": "Egypt",       "homeScore": 1, "awayScore": 1, 
@@ -228,7 +228,15 @@
                     { "team": "away", "player": "Ahmed Fatouh",    "minute": "34","type": "yellow" },
                     { "team": "home", "player": "Maxim De Cuyper",    "minute": "75","type": "yellow" }
                   ] },
-				"2": { "_home": "IR Iran",     "_away": "New Zealand", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"2": { "_home": "IR Iran",     "_away": "New Zealand", "homeScore": 2, "awayScore": 2, 
+                  "goals": [
+                    { "team": "away", "player": "Elijah Just", "minute": "7"  },
+                    { "team": "home", "player": "Ramin Rezaeian", "minute": "32"  },
+                    { "team": "away", "player": "Elijah Just", "minute": "55"  },
+                    { "team": "home", "player": "Mohammad Mohebi", "minute": "64"  }
+                  ], "cards": [
+                    { "team": "home", "player": "Ehsan Hajsafi",    "minute": "13","type": "yellow" }
+                  ] },
 				"3": { "_home": "Belgium",     "_away": "IR Iran",     "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"4": { "_home": "New Zealand", "_away": "Egypt",       "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"5": { "_home": "New Zealand", "_away": "Belgium",     "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
