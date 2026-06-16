@@ -240,8 +240,8 @@
 			"teams": {
 				"1": { "_name": "Spain",        "points": 1, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 0, "ga": 0 },
 				"2": { "_name": "Cabo Verde",   "points": 1, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 0, "ga": 0 },
-				"3": { "_name": "Saudi Arabia", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"4": { "_name": "Uruguay",      "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
+				"3": { "_name": "Saudi Arabia", "points": 1, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 1, "ga": 1 },
+				"4": { "_name": "Uruguay",      "points": 1, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 1, "ga": 1 }
 			},
 			"matches": {
 				"1": { "_home": "Spain",        "_away": "Cabo Verde",   "homeScore": 0, "awayScore": 0, 
@@ -251,7 +251,13 @@
                     { "team": "away", "player": "Sidny Lopes Cabral",    "minute": "16","type": "yellow" },
                     { "team": "home", "player": "Pedri",    "minute": "90+2","type": "yellow" }
                   ] },
-				"2": { "_home": "Saudi Arabia", "_away": "Uruguay",      "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"2": { "_home": "Saudi Arabia", "_away": "Uruguay",      "homeScore": 1, "awayScore": 1, 
+                  "goals": [
+                    { "team": "home", "player": "Abdulelah Al-Amri", "minute": "41"  },
+                    { "team": "away", "player": "Maximiliano Araújo", "minute": "80"  }
+                  ], "cards": [
+                    { "team": "home", "player": "Abdulelah Al-Amri",    "minute": "44","type": "yellow" }
+                  ] },
 				"3": { "_home": "Spain",        "_away": "Saudi Arabia", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"4": { "_home": "Uruguay",      "_away": "Cabo Verde",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"5": { "_home": "Cabo Verde",   "_away": "Saudi Arabia", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
