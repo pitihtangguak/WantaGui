@@ -275,13 +275,21 @@
 
 		"I": {
 			"teams": {
-				"1": { "_name": "France",  "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"2": { "_name": "Senegal", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+				"1": { "_name": "France",  "points": 3, "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 3, "ga": 1 },
+				"2": { "_name": "Senegal", "points": 0, "played": 1, "won": 0, "drawn": 0, "lost": 1, "gf": 1, "ga": 3 },
 				"3": { "_name": "Iraq",    "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
 				"4": { "_name": "Norway",  "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
 			},
 			"matches": {
-				"1": { "_home": "France",  "_away": "Senegal", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"1": { "_home": "France",  "_away": "Senegal", "homeScore": 3, "awayScore": 1, 
+                  "goals": [
+                    { "team": "home", "player": "Kylian Mbappé", "minute": "66"  },
+                    { "team": "home", "player": "Bradley Barcola", "minute": "82"  },
+                    { "team": "away", "player": "Ibrahim Mbaye", "minute": "90+4"  },
+                    { "team": "home", "player": "Kylian Mbappé", "minute": "90+5"  }
+                  ], "cards": [
+                    
+                  ] },
 				"2": { "_home": "Iraq",    "_away": "Norway",  "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"3": { "_home": "France",  "_away": "Iraq",    "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"4": { "_home": "Norway",  "_away": "Senegal", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
