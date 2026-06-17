@@ -277,8 +277,8 @@
 			"teams": {
 				"1": { "_name": "France",  "points": 3, "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 3, "ga": 1 },
 				"2": { "_name": "Senegal", "points": 0, "played": 1, "won": 0, "drawn": 0, "lost": 1, "gf": 1, "ga": 3 },
-				"3": { "_name": "Iraq",    "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"4": { "_name": "Norway",  "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
+				"3": { "_name": "Iraq",    "points": 0, "played": 1, "won": 0, "drawn": 0, "lost": 1, "gf": 1, "ga": 4 },
+				"4": { "_name": "Norway",  "points": 3, "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 4, "ga": 1 }
 			},
 			"matches": {
 				"1": { "_home": "France",  "_away": "Senegal", "homeScore": 3, "awayScore": 1, 
@@ -290,7 +290,17 @@
                   ], "cards": [
                     
                   ] },
-				"2": { "_home": "Iraq",    "_away": "Norway",  "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"2": { "_home": "Iraq",    "_away": "Norway",  "homeScore": 1, "awayScore": 4, 
+                  "goals": [
+                    { "team": "away", "player": "Erling Haaland", "minute": "29"  },
+                    { "team": "home", "player": "Aymen Hussein", "minute": "39"  },
+                    { "team": "away", "player": "Erling Haaland", "minute": "43"  },
+                    { "team": "away", "player": "Leo Skiri Østigård", "minute": "76"  },
+                    { "team": "away", "player": "Aymen Hussein", "minute": "90+5 (OG)"  }
+                  ], 
+                  "cards": [
+                    { "team": "home", "player": "Zaid Tahseen",    "minute": "86","type": "yellow" }
+                  ] },
 				"3": { "_home": "France",  "_away": "Iraq",    "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"4": { "_home": "Norway",  "_away": "Senegal", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"5": { "_home": "Norway",  "_away": "France",  "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
