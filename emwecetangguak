@@ -343,13 +343,23 @@
 
 		"K": {
 			"teams": {
-				"1": { "_name": "Portugal",   "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"2": { "_name": "DR Congo",   "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
+				"1": { "_name": "Portugal",   "points": 0, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 1, "ga": 1 },
+				"2": { "_name": "DR Congo",   "points": 0, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 1, "ga": 1 },
 				"3": { "_name": "Uzbekistan", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
 				"4": { "_name": "Colombia",   "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
 			},
 			"matches": {
-				"1": { "_home": "Portugal",   "_away": "DR Congo",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"1": { "_home": "Portugal",   "_away": "DR Congo",   "homeScore": 1, "awayScore": 1, 
+                  "goals": [
+                    { "team": "home", "player": "João Neves", "minute": "6"  },
+                    { "team": "away", "player": "Yoane Wissa", "minute": "45+4"  }
+                  ], 
+                  "cards": [
+                    { "team": "home", "player": "Bernardo Silva",    "minute": "13","type": "yellow" },
+                    { "team": "away", "player": "Chancel Mbemba Mangulu",    "minute": "32","type": "yellow" },
+                    { "team": "home", "player": "Nélson Semedo",    "minute": "88","type": "yellow" },
+                    { "team": "home", "player": "Tomás Araújo",    "minute": "90+1","type": "yellow" }
+                  ] },
 				"2": { "_home": "Uzbekistan", "_away": "Colombia",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"3": { "_home": "Portugal",   "_away": "Uzbekistan", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"4": { "_home": "Colombia",   "_away": "DR Congo",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
