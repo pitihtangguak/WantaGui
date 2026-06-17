@@ -312,8 +312,8 @@
 			"teams": {
 				"1": { "_name": "Argentina", "points": 3, "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 3, "ga": 0 },
 				"2": { "_name": "Algeria",   "points": 0, "played": 1, "won": 0, "drawn": 0, "lost": 1, "gf": 0, "ga": 3 },
-				"3": { "_name": "Austria",   "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"4": { "_name": "Jordan",    "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
+				"3": { "_name": "Austria",   "points": 3, "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 3, "ga": 1 },
+				"4": { "_name": "Jordan",    "points": 0, "played": 1, "won": 0, "drawn": 0, "lost": 1, "gf": 1, "ga": 3 }
 			},
 			"matches": {
 				"1": { "_home": "Argentina", "_away": "Algeria",   "homeScore": 3, "awayScore": 1, 
@@ -324,7 +324,16 @@
                   ], "cards": [
                     
                   ] },
-				"2": { "_home": "Austria",   "_away": "Jordan",    "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"2": { "_home": "Austria",   "_away": "Jordan",    "homeScore": 3, "awayScore": 1, 
+                  "goals": [
+                    { "team": "home", "player": "Romano Schmid", "minute": "21"  },
+                    { "team": "away", "player": "Ali Olwan", "minute": "50"  },
+                    { "team": "home", "player": "Yazan Al-Arab", "minute": "76 (OG)"  },
+                    { "team": "home", "player": "Marko Arnautović", "minute": "90+11"  }
+                  ], 
+                  "cards": [
+                    
+                  ] },
 				"3": { "_home": "Argentina", "_away": "Austria",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"4": { "_home": "Jordan",    "_away": "Algeria",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"5": { "_home": "Algeria",   "_away": "Austria",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
