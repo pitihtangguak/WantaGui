@@ -4,9 +4,9 @@
 		"A": {
 			"teams": {
 				"1": { "_name": "Mexico",         "points": 3, "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 2, "ga": 0 },
-				"2": { "_name": "South Africa",   "points": 0, "played": 1, "won": 0, "drawn": 0, "lost": 1, "gf": 0, "ga": 2 },
+				"2": { "_name": "South Africa",   "points": 0, "played": 2, "won": 0, "drawn": 1, "lost": 1, "gf": 1, "ga": 3 },
 				"3": { "_name": "South Korea", "points": 3, "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 2, "ga": 1 },
-				"4": { "_name": "Czechia",        "points": 0, "played": 1, "won": 0, "drawn": 0, "lost":1, "gf": 1, "ga": 2 }
+				"4": { "_name": "Czechia",        "points": 0, "played": 2, "won": 0, "drawn": 1, "lost":1, "gf": 2, "ga": 3 }
 			},
 			"matches": {
 				"1": {
@@ -35,7 +35,15 @@
 					"cards": [
                    { "team": "home", "player": "Lee Gi-hyuk", "minute": "90+5", "type": "yellow"    }
                     ]},
-				"3": { "_home": "Czechia",        "_away": "South Africa",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"3": { "_home": "Czechia",        "_away": "South Africa",   "homeScore": null, "awayScore": null, 
+                  "goals": [
+                    { "team": "home", "player": "Michal Sadílek", "minute": "6"  },
+                    { "team": "away", "player": "Teboho Mokoena", "minute": "83"  }
+                  ], "cards": [
+                    { "team": "away", "player": "Teboho Mokoena", "minute": "33", "type": "yellow"    },
+                    { "team": "away", "player": "Thalente Mbatha", "minute": "40", "type": "yellow"    },
+                    { "team": "home", "player": "Ladislav Krejčí", "minute": "75", "type": "yellow"    }
+                  ] },
 				"4": { "_home": "Mexico",         "_away": "South Korea", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"5": { "_home": "South Africa",   "_away": "South Korea", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"6": { "_home": "Czechia",        "_away": "Mexico",         "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
