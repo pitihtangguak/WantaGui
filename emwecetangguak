@@ -345,8 +345,8 @@
 			"teams": {
 				"1": { "_name": "Portugal",   "points": 0, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 1, "ga": 1 },
 				"2": { "_name": "DR Congo",   "points": 0, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 1, "ga": 1 },
-				"3": { "_name": "Uzbekistan", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"4": { "_name": "Colombia",   "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
+				"3": { "_name": "Uzbekistan", "points": 3, "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 3, "ga": 1 },
+				"4": { "_name": "Colombia",   "points": 0, "played": 1, "won": 0, "drawn": 0, "lost": 1, "gf": 1, "ga": 3 }
 			},
 			"matches": {
 				"1": { "_home": "Portugal",   "_away": "DR Congo",   "homeScore": 1, "awayScore": 1, 
@@ -360,7 +360,17 @@
                     { "team": "home", "player": "Nélson Semedo",    "minute": "88","type": "yellow" },
                     { "team": "home", "player": "Tomás Araújo",    "minute": "90+1","type": "yellow" }
                   ] },
-				"2": { "_home": "Uzbekistan", "_away": "Colombia",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"2": { "_home": "Uzbekistan", "_away": "Colombia",   "homeScore": 1, "awayScore": 3, 
+                  "goals": [
+                    { "team": "away", "player": "Daniel Muñoz", "minute": "40"  },
+                    { "team": "home", "player": "Abbosbek Fayzullaev", "minute": "60"  },
+                    { "team": "away", "player": "Luis Diaz", "minute": "65"  },
+                    { "team": "away", "player": "Jaminton Campaz", "minute": "90+8"  }
+                  ], 
+                  "cards": [
+                    { "team": "away", "player": "Johan Mojica",    "minute": "7","type": "yellow" },
+                    { "team": "home", "player": "Abdukodir Khusanov",    "minute": "34","type": "yellow" }
+                  ] },
 				"3": { "_home": "Portugal",   "_away": "Uzbekistan", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"4": { "_home": "Colombia",   "_away": "DR Congo",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"5": { "_home": "Colombia",   "_away": "Portugal",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
