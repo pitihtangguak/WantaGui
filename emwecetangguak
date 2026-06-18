@@ -35,7 +35,7 @@
 					"cards": [
                    { "team": "home", "player": "Lee Gi-hyuk", "minute": "90+5", "type": "yellow"    }
                     ]},
-				"3": { "_home": "Czechia",        "_away": "South Africa",   "homeScore": null, "awayScore": null, 
+				"3": { "_home": "Czechia",        "_away": "South Africa",   "homeScore": 1, "awayScore": 1, 
                   "goals": [
                     { "team": "home", "player": "Michal Sadílek", "minute": "6"  },
                     { "team": "away", "player": "Teboho Mokoena", "minute": "83"  }
