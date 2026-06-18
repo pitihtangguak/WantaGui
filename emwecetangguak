@@ -370,14 +370,33 @@
 
 		"L": {
 			"teams": {
-				"1": { "_name": "England", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"2": { "_name": "Croatia", "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"3": { "_name": "Ghana",   "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 },
-				"4": { "_name": "Panama",  "points": 0, "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0 }
+				"1": { "_name": "England", "points": 3, "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 4, "ga": 2 },
+				"2": { "_name": "Croatia", "points": 0, "played": 1, "won": 0, "drawn": 0, "lost": 1, "gf": 2, "ga": 4 },
+				"3": { "_name": "Ghana",   "points": 3, "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 1, "ga": 0 },
+				"4": { "_name": "Panama",  "points": 0, "played": 1, "won": 0, "drawn": 0, "lost": 1, "gf": 0, "ga": 1 }
 			},
 			"matches": {
-				"1": { "_home": "England", "_away": "Croatia", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"2": { "_home": "Ghana",   "_away": "Panama",  "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"1": { "_home": "England", "_away": "Croatia", "homeScore": 4, "awayScore": 1, 
+                  "goals": [
+                    { "team": "home", "player": "Harry Kane", "minute": "12"  },
+                    { "team": "away", "player": "Martin Baturina", "minute": "36"  },
+                    { "team": "home", "player": "Harry Kane", "minute": "42"  },
+                    { "team": "away", "player": "Petar Musa", "minute": "45+4"  },
+                    { "team": "home", "player": "Jude Bellingham", "minute": "47"  },
+                    { "team": "home", "player": "Marcus Rashford", "minute": "85"  }
+                  ], 
+                  "cards": [
+                    
+                  ] },
+				"2": { "_home": "Ghana",   "_away": "Panama",  "homeScore": 1, "awayScore": 0, 
+                  "goals": [
+                    { "team": "home", "player": "Caleb Yirenkyi", "minute": "90+4"  }
+                  ], 
+                  "cards": [
+                    { "team": "home", "player": "Caleb Yirenkyi",    "minute": "16","type": "yellow" },
+                    { "team": "away", "player": "César Blackman",    "minute": "72","type": "yellow" },
+                    { "team": "away", "player": "Carlos Harvey",    "minute": "90+8","type": "yellow" }
+                  ] },
 				"3": { "_home": "England", "_away": "Ghana",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"4": { "_home": "Panama",  "_away": "Croatia", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"5": { "_home": "Panama",  "_away": "England", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
