@@ -3,9 +3,9 @@
 
 		"A": {
 			"teams": {
-				"1": { "_name": "Mexico",         "points": 3, "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 2, "ga": 0 },
+				"1": { "_name": "Mexico",         "points": 6, "played": 2, "won": 2, "drawn": 0, "lost": 0, "gf": 3, "ga": 0 },
 				"2": { "_name": "South Africa",   "points": 0, "played": 2, "won": 0, "drawn": 1, "lost": 1, "gf": 1, "ga": 3 },
-				"3": { "_name": "South Korea", "points": 3, "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 2, "ga": 1 },
+				"3": { "_name": "South Korea", "points": 3, "played": 2, "won": 1, "drawn": 0, "lost": 1, "gf": 2, "ga": 2 },
 				"4": { "_name": "Czechia",        "points": 0, "played": 2, "won": 0, "drawn": 1, "lost":1, "gf": 2, "ga": 3 }
 			},
 			"matches": {
@@ -44,7 +44,14 @@
                     { "team": "away", "player": "Thalente Mbatha", "minute": "40", "type": "yellow"    },
                     { "team": "home", "player": "Ladislav Krejčí", "minute": "75", "type": "yellow"    }
                   ] },
-				"4": { "_home": "Mexico",         "_away": "South Korea", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"4": { "_home": "Mexico",         "_away": "South Korea", "homeScore": 1, "awayScore": 0, 
+                  "goals": [
+                    { "team": "home", "player": "Luis Romo", "minute": "50"  }
+                  ], 
+                  "cards": [
+                    { "team": "away", "player": "Lee Kang-in", "minute": "4", "type": "yellow" },
+                    { "team": "away", "player": "Paik Seung-ho", "minute": "58", "type": "yellow" }
+                  ] },
 				"5": { "_home": "South Africa",   "_away": "South Korea", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"6": { "_home": "Czechia",        "_away": "Mexico",         "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
 			}
@@ -52,10 +59,10 @@
 
 		"B": {
 			"teams": {
-				"1": { "_name": "Canada",      "points": 1, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 1, "ga": 1 },
-				"2": { "_name": "Bosnia & H.", "points": 1, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 1, "ga": 1 },
-				"3": { "_name": "Qatar",       "points": 1, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 1, "ga": 1 },
-				"4": { "_name": "Switzerland", "points": 1, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 1, "ga": 1 }
+				"1": { "_name": "Canada",      "points": 4, "played": 2, "won": 1, "drawn": 1, "lost": 0, "gf": 7, "ga": 1 },
+				"2": { "_name": "Bosnia & H.", "points": 1, "played": 2, "won": 0, "drawn": 1, "lost": 1, "gf": 2, "ga": 5 },
+				"3": { "_name": "Qatar",       "points": 1, "played": 2, "won": 0, "drawn": 1, "lost": 0, "gf": 1, "ga": 7 },
+				"4": { "_name": "Switzerland", "points": 4, "played": 2, "won": 1, "drawn": 1, "lost": 0, "gf": 5, "ga": 2 }
 			},
 			"matches": {
 				"1": { "_home": "Canada",      "_away": "Bosnia & H.", "homeScore": 1, "awayScore": 1, "goals": [
@@ -72,8 +79,34 @@
                    { "team": "home", "player": "Jassem Gaber Abdulsallam",    "minute": "23","type": "yellow" },
                    { "team": "away", "player": "Denis Zakaria",    "minute": "42","type": "yellow" }
                 ] },
-				"3": { "_home": "Switzerland", "_away": "Bosnia & H.", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"4": { "_home": "Canada",      "_away": "Qatar",       "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"3": { "_home": "Switzerland", "_away": "Bosnia & H.", "homeScore": 4, "awayScore": 1, 
+                  "goals": [
+                    { "team": "home", "player": "Johan Manzambi", "minute": "74"  },
+                    { "team": "home", "player": "Rubén Vargas", "minute": "84"  },
+                    { "team": "home", "player": "Johan Manzambi", "minute": "90"  },
+                    { "team": "home", "player": "Ermin Mahmić", "minute": "90+2"  },
+                    { "team": "home", "player": "Granit Xhaka", "minute": "90+6"  }
+                  ], 
+                  "cards": [
+                    { "team": "away", "player": "Amar Dedić",    "minute": "59" ,"type": "yellow"},
+                    { "team": "away", "player": "Edin Džeko",    "minute": "61" ,"type": "yellow"},
+                    { "team": "away", "player": "Nico Elvedi",    "minute": "65" ,"type": "yellow"}
+                  ] },
+				"4": { "_home": "Canada",      "_away": "Qatar",       "homeScore": 6, "awayScore": 1, 
+                  "goals": [
+                    { "team": "home", "player": "Cyle Larin", "minute": "16"  },
+                    { "team": "home", "player": "Jonathan David", "minute": "29"  },
+                    { "team": "home", "player": "Jonathan David", "minute": "45+2"  },
+                    { "team": "home", "player": "Nathan Saliba", "minute": "64"  },
+                    { "team": "home", "player": "Mohammed Manai", "minute": "75 (OG) "  },
+                    { "team": "home", "player": "Jonathan David", "minute": "90+1"  }
+                  ], 
+                  "cards": [
+                    { "team": "home", "player": "Derek Cornelius",    "minute": "9" ,"type": "yellow"},
+                    { "team": "away", "player": "Homam Ahmed",    "minute": "33" ,"type": "red"},
+                    { "team": "away", "player": "Assim Madibo",    "minute": "53" ,"type": "red"},
+                    { "team": "away", "player": "Ahmed Fathy",    "minute": "62" ,"type": "red"}
+                  ] },
 				"5": { "_home": "Switzerland", "_away": "Canada",      "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"6": { "_home": "Bosnia & H.", "_away": "Qatar",       "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
 			}
