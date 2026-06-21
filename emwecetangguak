@@ -222,10 +222,10 @@
 
 		"E": {
 			"teams": {
-				"1": { "_name": "Germany",       "points": 3, "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 7, "ga": 1 },
-				"2": { "_name": "Curacao",       "points": 0, "played": 1, "won": 0, "drawn": 0, "lost": 1, "gf": 1, "ga": 7 },
-				"3": { "_name": "Cote d'Ivoire", "points": 3, "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 1, "ga": 0 },
-				"4": { "_name": "Ecuador",       "points": 0, "played": 1, "won": 0, "drawn": 0, "lost": 1, "gf": 0, "ga": 1 }
+				"1": { "_name": "Germany",       "points": 6, "played": 2, "won": 2, "drawn": 0, "lost": 0, "gf": 9, "ga": 2 },
+				"2": { "_name": "Curacao",       "points": 1, "played": 2, "won": 0, "drawn": 1, "lost": 1, "gf": 1, "ga": 7 },
+				"3": { "_name": "Cote d'Ivoire", "points": 3, "played": 2, "won": 1, "drawn": 0, "lost": 1, "gf": 2, "ga": 1 },
+				"4": { "_name": "Ecuador",       "points": 1, "played": 2, "won": 0, "drawn": 1, "lost": 1, "gf": 0, "ga": 1 }
 			},
 			"matches": {
 				"1": { "_home": "Germany",       "_away": "Curacao",       "homeScore": 7, "awayScore": 1, 
@@ -248,8 +248,26 @@
                   { "team": "home", "player": "Guéla Doué",    "minute": "40","type": "yellow" },
                   { "team": "home", "player": "Jackson Porozo",    "minute": "73","type": "yellow" }
                 ] },
-				"3": { "_home": "Germany",       "_away": "Cote d'Ivoire", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"4": { "_home": "Ecuador",       "_away": "Curacao",       "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"3": { "_home": "Germany",       "_away": "Cote d'Ivoire", "homeScore": 2, "awayScore": 1, 
+                  "goals": [
+                    { "team": "away", "player": "Franck Kessié", "minute": "30"  },
+                    { "team": "home", "player": "Deniz Undav", "minute": "68"  },
+                    { "team": "home", "player": "Deniz Undav", "minute": "90+3"  }
+                  ], 
+                  "cards": [
+                    
+                  ] },
+				"4": { "_home": "Ecuador",       "_away": "Curacao",       "homeScore": 0, "awayScore": 0, 
+                  "goals": [
+                    
+                  ], "cards": [
+                    { "team": "home", "player": "Jordy Alcívar", "minute": "38"  },
+                    { "team": "away", "player": "Leandro Bacuna", "minute": "39"  },
+                    { "team": "away", "player": "Juninho Bacuna", "minute": "53"  },
+                    { "team": "away", "player": "Livano Comenencia", "minute": "56"  },
+                    { "team": "away", "player": "Juriën Gaari", "minute": "75"  },
+                    { "team": "away", "player": "Gervane Kastaneer", "minute": "90"  }
+                  ] },
 				"5": { "_home": "Curacao",       "_away": "Cote d'Ivoire", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"6": { "_home": "Ecuador",       "_away": "Germany",       "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
 			}
@@ -257,10 +275,10 @@
 
 		"F": {
 			"teams": {
-				"1": { "_name": "Netherlands", "points": 1, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 2, "ga": 2 },
-				"2": { "_name": "Japan",       "points": 1, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 2, "ga": 2 },
-				"3": { "_name": "Sweden",      "points": 3, "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 5, "ga": 1 },
-				"4": { "_name": "Tunisia",     "points": 0, "played": 1, "won": 0, "drawn": 0, "lost": 0, "gf": 1, "ga": 5 }
+				"1": { "_name": "Netherlands", "points": 4, "played": 1, "won": 1, "drawn": 1, "lost": 0, "gf": 7, "ga": 3 },
+				"2": { "_name": "Japan",       "points": 4, "played": 2, "won": 1, "drawn": 1, "lost": 0, "gf": 6, "ga": 2 },
+				"3": { "_name": "Sweden",      "points": 3, "played": 2, "won": 1, "drawn": 0, "lost": 1, "gf": 6, "ga": 6 },
+				"4": { "_name": "Tunisia",     "points": 0, "played": 2, "won": 0, "drawn": 0, "lost": 2, "gf": 1, "ga": 9 }
 			},
 			"matches": {
 				"1": { "_home": "Netherlands", "_away": "Japan",       "homeScore": 2, "awayScore": 2, "goals": [
@@ -284,8 +302,30 @@
                 ], "cards": [
                   { "team": "away", "player": "Rani Khedira",    "minute": "61","type": "yellow" }
                 ] },
-				"3": { "_home": "Netherlands", "_away": "Sweden",      "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"4": { "_home": "Tunisia",     "_away": "Japan",       "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"3": { "_home": "Netherlands", "_away": "Sweden",      "homeScore": 5, "awayScore": 1, 
+                  "goals": [
+                    { "team": "home", "player": "Brian Brobbey", "minute": "5"  },
+                    { "team": "home", "player": "Brian Brobbey", "minute": "17"  },
+                    { "team": "home", "player": "Cody Gakpo", "minute": "47"  },
+                    { "team": "home", "player": "Cody Gakpo", "minute": "54"  },
+                    { "team": "away", "player": "Anthony Elanga", "minute": "59"  },
+                    { "team": "home", "player": "Crysencio Summerville", "minute": "89"  }
+                  ], 
+                  "cards": [
+                    { "team": "away", "player": "Gabriel Gudmundsson",    "minute": "53","type": "yellow" },
+                    { "team": "away", "player": "Yasin Ayari",    "minute": "75","type": "yellow" },
+                    { "team": "away", "player": "Lucas Bergvall",    "minute": "80","type": "yellow" }
+                  ] },
+				"4": { "_home": "Tunisia",     "_away": "Japan",       "homeScore": 0, "awayScore": 4, 
+                  "goals": [
+                    { "team": "away", "player": "Daichi Kamada", "minute": "4"  },
+                    { "team": "away", "player": "Ayase Ueda", "minute": "31"  },
+                    { "team": "away", "player": "Junya Ito", "minute": "69"  },
+                    { "team": "away", "player": "Ayase Ueda", "minute": "83"  }
+                  ], 
+                  "cards": [
+                    
+                  ] },
 				"5": { "_home": "Tunisia",     "_away": "Netherlands", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"6": { "_home": "Japan",       "_away": "Sweden",      "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
 			}
@@ -293,9 +333,9 @@
 
 		"G": {
 			"teams": {
-				"1": { "_name": "Belgium",     "points": 1, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 1, "ga": 1 },
+				"1": { "_name": "Belgium",     "points": 2, "played": 2, "won": 0, "drawn": 2, "lost": 0, "gf": 1, "ga": 1 },
 				"2": { "_name": "Egypt",       "points": 1, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 1, "ga": 1 },
-				"3": { "_name": "IR Iran",     "points": 1, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 2, "ga": 2 },
+				"3": { "_name": "IR Iran",     "points": 2, "played": 2, "won": 0, "drawn": 2, "lost": 0, "gf": 2, "ga": 2 },
 				"4": { "_name": "New Zealand", "points": 1, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 2, "ga": 2 }
 			},
 			"matches": {
@@ -318,7 +358,15 @@
                   ], "cards": [
                     { "team": "home", "player": "Ehsan Hajsafi",    "minute": "13","type": "yellow" }
                   ] },
-				"3": { "_home": "Belgium",     "_away": "IR Iran",     "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"3": { "_home": "Belgium",     "_away": "IR Iran",     "homeScore": 0, "awayScore": 0, 
+                  "goals": [
+                    
+                  ], 
+                  "cards": [
+                    { "team": "home", "player": "Romelu Lukaku",    "minute": "3","type": "yellow" },
+                    { "team": "away", "player": "Saeid Ezatolahi",    "minute": "33","type": "yellow" },
+                    { "team": "home", "player": "Nathan Ngoy",    "minute": "67","type": "red" }
+                  ] },
 				"4": { "_home": "New Zealand", "_away": "Egypt",       "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"5": { "_home": "New Zealand", "_away": "Belgium",     "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"6": { "_home": "Egypt",       "_away": "IR Iran",     "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
@@ -327,9 +375,9 @@
 
 		"H": {
 			"teams": {
-				"1": { "_name": "Spain",        "points": 1, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 0, "ga": 0 },
+				"1": { "_name": "Spain",        "points": 4, "played": 2, "won": 1, "drawn": 1, "lost": 0, "gf": 4, "ga": 0 },
 				"2": { "_name": "Cabo Verde",   "points": 1, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 0, "ga": 0 },
-				"3": { "_name": "Saudi Arabia", "points": 1, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 1, "ga": 1 },
+				"3": { "_name": "Saudi Arabia", "points": 1, "played": 2, "won": 0, "drawn": 1, "lost": 0, "gf": 1, "ga": 5 },
 				"4": { "_name": "Uruguay",      "points": 1, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 1, "ga": 1 }
 			},
 			"matches": {
@@ -347,7 +395,17 @@
                   ], "cards": [
                     { "team": "home", "player": "Abdulelah Al-Amri",    "minute": "44","type": "yellow" }
                   ] },
-				"3": { "_home": "Spain",        "_away": "Saudi Arabia", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"3": { "_home": "Spain",        "_away": "Saudi Arabia", "homeScore": 4, "awayScore": 0, 
+                  "goals": [
+                    { "team": "home", "player": "Lamine Yamal", "minute": "10"  },
+                    { "team": "home", "player": "Mikel Oyarzabal", "minute": "21"  },
+                    { "team": "home", "player": "Mikel Oyarzabal", "minute": "24"  },
+                    { "team": "home", "player": "Hassan Al-Tombakti", "minute": "49 (OG)"  }
+                  ], 
+                  "cards": [
+                    { "team": "away", "player": "Salem Al-Dawsari",    "minute": "30","type": "yellow" },
+                    { "team": "away", "player": "Mohamed Kanno",    "minute": "60","type": "yellow" }
+                  ] },
 				"4": { "_home": "Uruguay",      "_away": "Cabo Verde",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"5": { "_home": "Cabo Verde",   "_away": "Saudi Arabia", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"6": { "_home": "Uruguay",      "_away": "Spain",        "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
