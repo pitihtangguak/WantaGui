@@ -334,9 +334,9 @@
 		"G": {
 			"teams": {
 				"1": { "_name": "Belgium",     "points": 2, "played": 2, "won": 0, "drawn": 2, "lost": 0, "gf": 1, "ga": 1 },
-				"2": { "_name": "Egypt",       "points": 1, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 1, "ga": 1 },
+				"2": { "_name": "Egypt",       "points": 4, "played": 2, "won": 1, "drawn": 1, "lost": 0, "gf": 4, "ga": 2 },
 				"3": { "_name": "IR Iran",     "points": 2, "played": 2, "won": 0, "drawn": 2, "lost": 0, "gf": 2, "ga": 2 },
-				"4": { "_name": "New Zealand", "points": 1, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 2, "ga": 2 }
+				"4": { "_name": "New Zealand", "points": 1, "played": 2, "won": 0, "drawn": 1, "lost": 1, "gf": 3, "ga": 5 }
 			},
 			"matches": {
 				"1": { "_home": "Belgium",     "_away": "Egypt",       "homeScore": 1, "awayScore": 1, 
@@ -367,7 +367,18 @@
                     { "team": "away", "player": "Saeid Ezatolahi",    "minute": "33","type": "yellow" },
                     { "team": "home", "player": "Nathan Ngoy",    "minute": "67","type": "red" }
                   ] },
-				"4": { "_home": "New Zealand", "_away": "Egypt",       "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"4": { "_home": "New Zealand", "_away": "Egypt",       "homeScore": 1, "awayScore": 3, 
+                  "goals": [
+                    { "team": "home", "player": "Finn Surman", "minute": "15"  },
+                    { "team": "away", "player": "Mostafa Ziko", "minute": "58"  },
+                    { "team": "away", "player": "Mohamed Salah", "minute": "67"  },
+                    { "team": "away", "player": "Mahmoud Hassan", "minute": "82"  }
+                  ], 
+                  "cards": [
+                    { "team": "away", "player": "Mohanad Lasheen",    "minute": "17","type": "yellow" },
+                    { "team": "home", "player": "Sarpreet Singh",    "minute": "20","type": "yellow" },
+                    { "team": "home", "player": "Callum McCowatt",    "minute": "34","type": "yellow" }
+                  ] },
 				"5": { "_home": "New Zealand", "_away": "Belgium",     "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"6": { "_home": "Egypt",       "_away": "IR Iran",     "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
 			}
@@ -376,9 +387,9 @@
 		"H": {
 			"teams": {
 				"1": { "_name": "Spain",        "points": 4, "played": 2, "won": 1, "drawn": 1, "lost": 0, "gf": 4, "ga": 0 },
-				"2": { "_name": "Cabo Verde",   "points": 1, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 0, "ga": 0 },
+				"2": { "_name": "Cabo Verde",   "points": 2, "played": 2, "won": 0, "drawn": 2, "lost": 0, "gf": 2, "ga": 2 },
 				"3": { "_name": "Saudi Arabia", "points": 1, "played": 2, "won": 0, "drawn": 1, "lost": 0, "gf": 1, "ga": 5 },
-				"4": { "_name": "Uruguay",      "points": 1, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 1, "ga": 1 }
+				"4": { "_name": "Uruguay",      "points": 2, "played": 2, "won": 0, "drawn": 2, "lost": 0, "gf": 3, "ga": 3 }
 			},
 			"matches": {
 				"1": { "_home": "Spain",        "_away": "Cabo Verde",   "homeScore": 0, "awayScore": 0, 
@@ -406,7 +417,19 @@
                     { "team": "away", "player": "Salem Al-Dawsari",    "minute": "30","type": "yellow" },
                     { "team": "away", "player": "Mohamed Kanno",    "minute": "60","type": "yellow" }
                   ] },
-				"4": { "_home": "Uruguay",      "_away": "Cabo Verde",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"4": { "_home": "Uruguay",      "_away": "Cabo Verde",   "homeScore": 2, "awayScore": 2, 
+                  "goals": [
+                    { "team": "away", "player": "Kevin Pina", "minute": "21"  },
+                    { "team": "home", "player": "Maximiliano Araújo", "minute": "44"  },
+                    { "team": "home", "player": "Agustín Canobbio", "minute": "45+5"  },
+                    { "team": "away", "player": "Hélio Varela", "minute": "61"  }
+                  ], 
+                  "cards": [
+                    { "team": "away", "player": "Sidny Lopes Cabral",    "minute": "5","type": "yellow" },
+                    { "team": "home", "player": "Rodrigo Bentancur",    "minute": "20","type": "yellow" },
+                    { "team": "home", "player": "Mathías Olivera",    "minute": "58","type": "yellow" },
+                    { "team": "away", "player": "Diney",    "minute": "90+2","type": "yellow" }
+                  ] },
 				"5": { "_home": "Cabo Verde",   "_away": "Saudi Arabia", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"6": { "_home": "Uruguay",      "_away": "Spain",        "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
 			}
