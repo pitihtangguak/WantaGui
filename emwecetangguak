@@ -437,10 +437,10 @@
 
 		"I": {
 			"teams": {
-				"1": { "_name": "France",  "points": 3, "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 3, "ga": 1 },
-				"2": { "_name": "Senegal", "points": 0, "played": 1, "won": 0, "drawn": 0, "lost": 1, "gf": 1, "ga": 3 },
-				"3": { "_name": "Iraq",    "points": 0, "played": 1, "won": 0, "drawn": 0, "lost": 1, "gf": 1, "ga": 4 },
-				"4": { "_name": "Norway",  "points": 3, "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 4, "ga": 1 }
+				"1": { "_name": "France",  "points": 6, "played": 2, "won": 2, "drawn": 0, "lost": 0, "gf": 6, "ga": 1 },
+				"2": { "_name": "Senegal", "points": 0, "played": 2, "won": 0, "drawn": 0, "lost": 2, "gf": 1, "ga": 3 },
+				"3": { "_name": "Iraq",    "points": 0, "played": 2, "won": 0, "drawn": 0, "lost": 2, "gf": 1, "ga": 7 },
+				"4": { "_name": "Norway",  "points": 6, "played": 2, "won": 2, "drawn": 0, "lost": 0, "gf": 7, "ga": 3 }
 			},
 			"matches": {
 				"1": { "_home": "France",  "_away": "Senegal", "homeScore": 3, "awayScore": 1, 
@@ -463,8 +463,26 @@
                   "cards": [
                     { "team": "home", "player": "Zaid Tahseen",    "minute": "86","type": "yellow" }
                   ] },
-				"3": { "_home": "France",  "_away": "Iraq",    "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"4": { "_home": "Norway",  "_away": "Senegal", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"3": { "_home": "France",  "_away": "Iraq",    "homeScore": 3, "awayScore": 0, 
+                  "goals": [
+                    { "team": "home", "player": "Kylian Mbappé", "minute": "14"  },
+                    { "team": "home", "player": "Kylian Mbappé", "minute": "54"  },
+                    { "team": "home", "player": "Ousmane Dembélé", "minute": "66"  }
+                  ], 
+                  "cards": [
+                    { "team": "away", "player": "Amir Al-Ammari",    "minute": "6","type": "yellow" }
+                  ] },
+				"4": { "_home": "Norway",  "_away": "Senegal", "homeScore": 3, "awayScore": 2, 
+                  "goals": [
+                    { "team": "home", "player": "Marcus Holmgren Pedersen", "minute": "43"  },
+                    { "team": "home", "player": "Erling Haaland", "minute": "48"  },
+                    { "team": "away", "player": "Ismaïla Sarr", "minute": "53"  },
+                    { "team": "home", "player": "Erling Haaland", "minute": "58"  },
+                    { "team": "home", "player": "Ismaïla Sarr", "minute": "90+3"  }
+                  ], 
+                  "cards": [
+                    
+                  ] },
 				"5": { "_home": "Norway",  "_away": "France",  "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"6": { "_home": "Senegal", "_away": "Iraq",    "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
 			}
@@ -472,10 +490,10 @@
 
 		"J": {
 			"teams": {
-				"1": { "_name": "Argentina", "points": 3, "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 3, "ga": 0 },
-				"2": { "_name": "Algeria",   "points": 0, "played": 1, "won": 0, "drawn": 0, "lost": 1, "gf": 0, "ga": 3 },
-				"3": { "_name": "Austria",   "points": 3, "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 3, "ga": 1 },
-				"4": { "_name": "Jordan",    "points": 0, "played": 1, "won": 0, "drawn": 0, "lost": 1, "gf": 1, "ga": 3 }
+				"1": { "_name": "Argentina", "points": 6, "played": 2, "won": 2, "drawn": 0, "lost": 0, "gf": 5, "ga": 0 },
+				"2": { "_name": "Algeria",   "points": 3, "played": 2, "won": 1, "drawn": 0, "lost": 1, "gf": 2, "ga": 4 },
+				"3": { "_name": "Austria",   "points": 3, "played": 2, "won": 1, "drawn": 1, "lost": 0, "gf": 3, "ga": 3 },
+				"4": { "_name": "Jordan",    "points": 0, "played": 2, "won": 0, "drawn": 0, "lost": 2, "gf": 2, "ga": 5 }
 			},
 			"matches": {
 				"1": { "_home": "Argentina", "_away": "Algeria",   "homeScore": 3, "awayScore": 1, 
@@ -496,8 +514,27 @@
                   "cards": [
                     
                   ] },
-				"3": { "_home": "Argentina", "_away": "Austria",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
-				"4": { "_home": "Jordan",    "_away": "Algeria",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"3": { "_home": "Argentina", "_away": "Austria",   "homeScore": 2, "awayScore": 0, 
+                  "goals": [
+                    { "team": "home", "player": "Lionel Messi", "minute": "38"  },
+                    { "team": "home", "player": "Lionel Messi", "minute": "90+5"  }
+                  ], 
+                  "cards": [
+                    { "team": "away", "player": "Stefan Posch",    "minute": "40","type": "yellow" },
+                    { "team": "home", "player": "Facundo Medina",    "minute": "76","type": "yellow" },
+                    { "team": "away", "player": "Konrad Laimer",    "minute": "76","type": "yellow" },
+                    { "team": "home", "player": "Leandro Paredes",    "minute": "90+2","type": "yellow" }
+                  ] },
+				"4": { "_home": "Jordan",    "_away": "Algeria",   "homeScore": 1, "awayScore": 2, 
+                  "goals": [
+                    { "team": "home", "player": "Nizar Al-Rashdan", "minute": "36"  },
+                    { "team": "away", "player": "Nadhir Benbouali", "minute": "69"  },
+                    { "team": "away", "player": "Amine Gouiri", "minute": "82"  }
+                  ], 
+                  "cards": [
+                    { "team": "away", "player": "Ramiz Zerrouki",    "minute": "44","type": "yellow" },
+                    { "team": "home", "player": "Husam Abu Dahab",    "minute": "64","type": "yellow" }
+                  ] },
 				"5": { "_home": "Algeria",   "_away": "Austria",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"6": { "_home": "Jordan",    "_away": "Argentina", "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
 			}
@@ -505,10 +542,10 @@
 
 		"K": {
 			"teams": {
-				"1": { "_name": "Portugal",   "points": 0, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 1, "ga": 1 },
-				"2": { "_name": "DR Congo",   "points": 0, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 1, "ga": 1 },
-				"3": { "_name": "Uzbekistan", "points": 3, "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 3, "ga": 1 },
-				"4": { "_name": "Colombia",   "points": 0, "played": 1, "won": 0, "drawn": 0, "lost": 1, "gf": 1, "ga": 3 }
+				"1": { "_name": "Portugal",   "points": 4, "played": 2, "won": 1, "drawn": 1, "lost": 0, "gf": 6, "ga": 1 },
+				"2": { "_name": "DR Congo",   "points": 1, "played": 1, "won": 0, "drawn": 1, "lost": 0, "gf": 1, "ga": 1 },
+				"3": { "_name": "Uzbekistan", "points": 1, "played": 2, "won": 0, "drawn": 0, "lost": 2, "gf": 1, "ga": 8 },
+				"4": { "_name": "Colombia",   "points": 1, "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 3, "ga": 1 }
 			},
 			"matches": {
 				"1": { "_home": "Portugal",   "_away": "DR Congo",   "homeScore": 1, "awayScore": 1, 
@@ -533,7 +570,18 @@
                     { "team": "away", "player": "Johan Mojica",    "minute": "7","type": "yellow" },
                     { "team": "home", "player": "Abdukodir Khusanov",    "minute": "34","type": "yellow" }
                   ] },
-				"3": { "_home": "Portugal",   "_away": "Uzbekistan", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"3": { "_home": "Portugal",   "_away": "Uzbekistan", "homeScore": 5, "awayScore": 0, 
+                  "goals": [
+                    { "team": "home", "player": "Cristiano Ronaldo", "minute": "6"  },
+                    { "team": "home", "player": "Nuno Mendes", "minute": "17"  },
+                    { "team": "home", "player": "Cristiano Ronaldo", "minute": "39"  },
+                    { "team": "home", "player": "Abduvohid Nematov", "minute": "60 (OG)"  },
+                    { "team": "home", "player": "Rafael Leão", "minute": "87"  }
+                  ], 
+                  "cards": [
+                    { "team": "away", "player": "Odiljon Hamrobekov",    "minute": "14","type": "yellow" },
+                    { "team": "home", "player": "Renato Veiga",    "minute": "68","type": "yellow" }
+                  ] },
 				"4": { "_home": "Colombia",   "_away": "DR Congo",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"5": { "_home": "Colombia",   "_away": "Portugal",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"6": { "_home": "DR Congo",   "_away": "Uzbekistan", "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
@@ -542,9 +590,9 @@
 
 		"L": {
 			"teams": {
-				"1": { "_name": "England", "points": 3, "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 4, "ga": 2 },
+				"1": { "_name": "England", "points": 4, "played": 2, "won": 1, "drawn": 1, "lost": 0, "gf": 4, "ga": 2 },
 				"2": { "_name": "Croatia", "points": 0, "played": 1, "won": 0, "drawn": 0, "lost": 1, "gf": 2, "ga": 4 },
-				"3": { "_name": "Ghana",   "points": 3, "played": 1, "won": 1, "drawn": 0, "lost": 0, "gf": 1, "ga": 0 },
+				"3": { "_name": "Ghana",   "points": 4, "played": 2, "won": 1, "drawn": 1, "lost": 0, "gf": 1, "ga": 0 },
 				"4": { "_name": "Panama",  "points": 0, "played": 1, "won": 0, "drawn": 0, "lost": 1, "gf": 0, "ga": 1 }
 			},
 			"matches": {
@@ -569,7 +617,14 @@
                     { "team": "away", "player": "César Blackman",    "minute": "72","type": "yellow" },
                     { "team": "away", "player": "Carlos Harvey",    "minute": "90+8","type": "yellow" }
                   ] },
-				"3": { "_home": "England", "_away": "Ghana",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
+				"3": { "_home": "England", "_away": "Ghana",   "homeScore": 0, "awayScore": 0, 
+                  "goals": [
+                    
+                  ], 
+                  "cards": [
+                    { "team": "home", "player": "Declan Rice",    "minute": "41","type": "yellow" },
+                    { "team": "away", "player": "Iñaki Williams",    "minute": "60","type": "yellow" }
+                  ] },
 				"4": { "_home": "Panama",  "_away": "Croatia", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"5": { "_home": "Panama",  "_away": "England", "homeScore": null, "awayScore": null, "goals": [], "cards": [] },
 				"6": { "_home": "Croatia", "_away": "Ghana",   "homeScore": null, "awayScore": null, "goals": [], "cards": [] }
