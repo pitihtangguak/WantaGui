@@ -794,7 +794,14 @@
 		"Round32": {
 			"1":  { "_info": "Winner E    vs 3rd A/B/C/D/F",  "team1": "Germany",      "team2": "Senegal",    "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
 			"2":  { "_info": "Winner I    vs 3rd C/D/F/G/H",  "team1": "France",        "team2": "Sweden",     "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-			"3":  { "_info": "Runner-up A vs Runner-up B",     "team1": "South Africa",  "team2": "Canada",     "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+			"3":  { "_info": "Runner-up A vs Runner-up B",     "team1": "South Africa",  "team2": "Canada",     "homeScore": 0, "awayScore": 1, "result": "team2", 
+              "goals": [
+                { "team": "away", "player": "Stephen Eustáquio",        "minute": "90+2"    }
+              ], 
+              "cards": [
+                { "team": "away", "player": "Nathan Saliba",       "minute": "54", "type": "yellow" },
+                { "team": "away", "player": "Niko Sigur",       "minute": "67", "type": "yellow" }
+              ] },
 			"4":  { "_info": "Winner F    vs Runner-up C",     "team1": "Netherlands",   "team2": "Morocco",    "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
 			"5":  { "_info": "Runner-up K vs Runner-up L",     "team1": "Portugal",      "team2": "Croatia",    "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
 			"6":  { "_info": "Winner H    vs Runner-up J",     "team1": "Spain",         "team2": "Austria",    "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
@@ -823,7 +830,7 @@
 		},
 		"Round16": {
 			"1": { "_info": "W R32_1  vs W R32_2",  "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-			"2": { "_info": "W R32_3  vs W R32_4",  "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+			"2": { "_info": "W R32_3  vs W R32_4",  "team1": "Canada", "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
 			"3": { "_info": "W R32_5  vs W R32_6",  "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
 			"4": { "_info": "W R32_7  vs W R32_8",  "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
 			"5": { "_info": "W R32_9  vs W R32_10", "team1": "Brazil", "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
