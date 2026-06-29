@@ -61,9 +61,9 @@
                   ] },
 				"6": { "_home": "Czechia",        "_away": "Mexico",         "homeScore": 0, "awayScore": 3, 
                   "goals": [
-                    { "away": "home", "player": "Mateo Chávez", "minute": "55"  },
-                    { "away": "home", "player": "Julián Quiñones", "minute": "61"  },
-                    { "away": "home", "player": "Álvaro Fidalgo", "minute": "90+4"  }
+                    { "team": "away", "player": "Mateo Chávez", "minute": "55"  },
+                    { "team": "away", "player": "Julián Quiñones", "minute": "61"  },
+                    { "team": "away", "player": "Álvaro Fidalgo", "minute": "90+4"  }
                   ], 
                   "cards": [
                     { "team": "home", "player": "Edson Álvarez", "minute": "64", "type": "yellow" }
@@ -83,7 +83,7 @@
                    { "team": "home", "player": "Cyle Larin", "minute": "78"  },
                    { "team": "away", "player": "Jovo Lukić", "minute": "21"  }
                 ], "cards": [
-                  { "team": "away", "player": "Nikola Katić",    "minute": "90+2" }
+                  { "team": "away", "player": "Nikola Katić",    "minute": "90+2", "type": "yellow" }
                 ] },
 				"2": { "_home": "Qatar",       "_away": "Switzerland", "homeScore": 1, "awayScore": 1, "goals": [
                    { "team": "away", "player": "Breel Embolo", "minute": "17"  },
@@ -112,7 +112,7 @@
                     { "team": "home", "player": "Jonathan David", "minute": "29"  },
                     { "team": "home", "player": "Jonathan David", "minute": "45+2"  },
                     { "team": "home", "player": "Nathan Saliba", "minute": "64"  },
-                    { "team": "home", "player": "Mohammed Manai", "minute": "75 (OG) "  },
+                    { "team": "home", "player": "Mohammed Manai", "minute": "75 (OG)"  },
                     { "team": "home", "player": "Jonathan David", "minute": "90+1"  }
                   ], 
                   "cards": [
@@ -340,9 +340,9 @@
                     { "team": "away", "player": "Nicolas Pépé", "minute": "64"  }
                   ], 
                   "cards": [
-                    { "team": "away", "player": "Nicolas Pépé", "minute": "35"  },
-                    { "team": "home", "player": "Juninho Bacuna", "minute": "75"  },
-                    { "team": "home", "player": "Gervane Kastaneer", "minute": "83"  }
+                    { "team": "away", "player": "Nicolas Pépé", "minute": "35", "type": "yellow"  },
+                    { "team": "home", "player": "Juninho Bacuna", "minute": "75", "type": "yellow"  },
+                    { "team": "home", "player": "Gervane Kastaneer", "minute": "83", "type": "yellow"  }
                   ] },
 				"6": { "_home": "Ecuador",       "_away": "Germany",       "homeScore": 2, "awayScore": 1, 
                   "goals": [
@@ -799,8 +799,20 @@
 			"5":  { "_info": "Runner-up K vs Runner-up L",     "team1": "Portugal",      "team2": "Croatia",    "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
 			"6":  { "_info": "Winner H    vs Runner-up J",     "team1": "Spain",         "team2": "Austria",    "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
 			"7":  { "_info": "Winner D    vs 3rd B/E/F/I/J",  "team1": "USA",           "team2": "Bosnia & H.","homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-			"8":  { "_info": "Winner G    vs 3rd A/E/H/I/J",  "team1": "Belgium",       "team2": "Senegal",    "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-			"9":  { "_info": "Winner C    vs Winner F",        "team1": "Brazil",        "team2": "Japan",      "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+			"8":  { "_info": "Winner G    vs 3rd A/E/H/I/J",  "team1": "Belgium",       "team2": "Egypt",      "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+			"9":  { "_info": "Winner C    vs Winner F",        "team1": "Brazil",        "team2": "Japan",      "homeScore": 2,    "awayScore": 1,    "result": "team1",
+				"goals": [
+					{ "team": "away", "player": "Kaishu Sano",        "minute": "29"    },
+					{ "team": "home", "player": "Casemiro",           "minute": "56"    },
+					{ "team": "home", "player": "Gabriel Martinelli", "minute": "90+6"  }
+				],
+				"cards": [
+					{ "team": "away", "player": "Kaishu Sano",       "minute": "11", "type": "yellow" },
+					{ "team": "home", "player": "Casemiro",          "minute": "14", "type": "yellow" },
+					{ "team": "away", "player": "Daichi Kamada",     "minute": "45", "type": "yellow" },
+					{ "team": "away", "player": "Junnosuke Suzuki",  "minute": "84", "type": "yellow" }
+				]
+			},
 			"10": { "_info": "Runner-up E vs Runner-up I",     "team1": "Cote d'Ivoire", "team2": "Norway",     "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
 			"11": { "_info": "Winner A    vs 3rd C/E/F/H/I",  "team1": "Mexico",        "team2": "Egypt",      "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
 			"12": { "_info": "Winner L    vs 3rd E/H/I/J/K",  "team1": "England",       "team2": "DR Congo",   "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
@@ -814,7 +826,7 @@
 			"2": { "_info": "W R32_3  vs W R32_4",  "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
 			"3": { "_info": "W R32_5  vs W R32_6",  "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
 			"4": { "_info": "W R32_7  vs W R32_8",  "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
-			"5": { "_info": "W R32_9  vs W R32_10", "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
+			"5": { "_info": "W R32_9  vs W R32_10", "team1": "Brazil", "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
 			"6": { "_info": "W R32_11 vs W R32_12", "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
 			"7": { "_info": "W R32_13 vs W R32_14", "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] },
 			"8": { "_info": "W R32_15 vs W R32_16", "team1": null, "team2": null, "homeScore": null, "awayScore": null, "result": null, "goals": [], "cards": [] }
